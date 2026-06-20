@@ -1,0 +1,146 @@
+Q 1: Test Conditions from Functional Requirements
+
+I selected a sample SRS of a food delivery application similar to Zomato. Based on the functional requirements, the following test conditions can be derived:
+
+1. Verify that a user can register successfully.
+2. Verify that a user can log in using valid credentials.
+3. Verify that restaurants can be searched by name.
+4. Verify that restaurants can be searched by cuisine.
+5. Verify that restaurant details are displayed correctly.
+6. Verify that food items can be added to the cart.
+7. Verify that users can place orders successfully.
+8. Verify that payments can be completed using available payment methods.
+
+These test conditions help ensure that all major functionalities work according to the requirements.
+
+Q 2. Test Cases for Restaurant Search Feature
+
+Requirement ID: FR-01
+
+Requirement: "The system shall allow users to search restaurants by cuisine and location."
+
+Test Case 1:
+Input: Cuisine = Punjabi, Location = Ahmedabad
+Expected Result: Punjabi restaurants available in Ahmedabad should be displayed.
+
+Test Case 2:
+Input: Cuisine = Chinese, Location = Rajkot
+Expected Result: Chinese restaurants available in Rajkot should be displayed.
+
+Test Case 3:
+Input: Cuisine = Italian, Location = Mumbai
+Expected Result: Italian restaurants should be displayed. If none are available, an appropriate message should be shown.
+
+Test Case 4:
+Input: Cuisine = Blank, Location = Surat
+Expected Result: Restaurants in Surat should be displayed or a validation message should appear according to system requirements.
+
+Q 3.
+Playlist Class in Python
+
+class Playlist:
+    def __init__(self, name, creator):
+        self.name = name
+        self.creator = creator
+        self.songs = []
+
+    def addSong(self, songName):
+        self.songs.append(songName)
+
+playlist1 = Playlist("My Favorites", "Shivraj")
+playlist1.addSong("Believer")
+playlist1.addSong("Shape of You")
+
+print(playlist1.songs)
+
+Understanding classes and objects helps testers read developer code more effectively. It also helps testers understand how data and functionality are organized within an application, making it easier to design better test cases.
+
+Q 4. SQL SELECT Queries for the Movies Table
+
+Assume the table name is movies and the columns are: id, title, genre, rating, and release_year.
+
+1. Fetch all movies
+
+SELECT * FROM movies;
+
+2. Fetch only Action movies
+
+SELECT * FROM movies
+WHERE genre = 'Action';
+
+3. Get movies released after 2020
+
+SELECT * FROM movies
+WHERE release_year > 2020;
+
+4. Get the top 3 highest-rated movies
+
+SELECT * FROM movies
+ORDER BY rating DESC
+LIMIT 3;
+
+5. Display only movie titles and ratings
+
+SELECT title, rating
+FROM movies;
+
+6. Get movies with rating greater than 8
+
+SELECT * FROM movies
+WHERE rating > 8;
+
+7. Sort movies by latest release year
+
+SELECT * FROM movies
+ORDER BY release_year DESC;
+
+8. Find movies whose title starts with the letter 'A'
+
+SELECT * FROM movies
+WHERE title LIKE 'A%';
+
+9. Count the total number of movies
+
+SELECT COUNT(*) AS Total_Movies
+FROM movies;
+
+10. Get Comedy movies released after 2018
+
+SELECT * FROM movies
+WHERE genre = 'Comedy'
+AND release_year > 2018;
+
+Conclusion
+
+These SQL queries use SELECT, WHERE, ORDER BY, LIMIT, LIKE, and COUNT clauses to retrieve different types of information from the movies table.
+
+Q 5. Using SQL to Verify a Requirement from an SRS
+
+Requirement ID: FR-05
+
+Requirement: The system shall display all available movie genres to users while searching for movies.
+
+As a QA tester, I would verify whether the genres displayed in the application are actually available in the database. This helps ensure that users see accurate information.
+
+SQL Query
+
+SELECT DISTINCT genre
+FROM movies;
+
+Expected Result
+
+The query should return all available genres stored in the database, such as:
+
+- Action
+- Comedy
+- Drama
+- Horror
+- Thriller
+
+Verification Process
+
+I would compare the genres displayed in the application with the results returned by the SQL query. If both match, the requirement is satisfied. If any genre is missing or displayed incorrectly, it would be reported as a defect.
+
+Conclusion
+
+SQL queries help testers verify that the backend database supports the requirements defined in the SRS document and that users receive correct information in the application.
