@@ -1,0 +1,108 @@
+
+
+Q 1. Test Scenarios for Instagram
+
+I use Instagram daily. Below are some test scenarios along with their classification.
+
+1. Verify that a user can upload a photo successfully. (Functional)
+2. Verify that a user can like and comment on a post. (Functional)
+3. Verify that a user can send messages through Direct Messages (DM). (Functional)
+4. Verify that the application loads the home feed within a few seconds. (Non-Functional)
+5. Verify that the application performs smoothly during heavy user traffic. (Non-Functional)
+
+These scenarios help test both the functionality and performance of the application.
+
+
+Q 2.Functional and Non-Functional Classification
+
+1. User can search restaurants – Functional (Checks a feature of the application.)
+2. App loads home screen in under 2 seconds – Non-Functional (Measures performance.)
+3. Payment gateway processes payments – Functional (Verifies payment functionality.)
+4. App supports 5 languages – Non-Functional (Related to usability and compatibility.)
+5. Order tracking updates in real time – Functional (Checks business functionality.)
+6. App prevents duplicate orders – Functional (Verifies correct system behavior.)
+7. UI adapts to dark mode – Non-Functional (Related to user interface and usability.)
+8. Password reset via OTP – Functional (Verifies password recovery functionality.)
+
+
+Q 3. Seven Principles of Software Testing
+
+1. Testing Shows Presence of Defects
+
+Testing can find defects, but it cannot prove that software is completely defect-free.
+
+2. Exhaustive Testing is Impossible
+
+It is impossible to test every possible input and scenario.
+
+3. Early Testing
+
+Testing should start as early as possible to find defects sooner.
+
+4. Defect Clustering
+
+Most defects are usually found in a small number of modules.
+
+5. Pesticide Paradox
+
+Running the same test cases repeatedly may stop finding new defects.
+
+6. Testing is Context Dependent
+
+Different applications require different testing approaches.
+
+7. Absence of Errors Fallacy
+
+Software with no defects is still useless if it does not meet user needs.
+
+Practical Examples
+
+Example of Early Testing:
+In Instagram, testers can review requirements before development starts to identify missing requirements early.
+
+Example of Defect Clustering:
+Most defects may occur in the Reels feature because it is more complex than other modules.
+
+
+Q 4.Testing Methodologies for a Movie Ticket Booking App
+
+
+1. User can select seats  : 
+
+Functional Testing
+   
+   - Ensures seat selection works correctly.
+
+2. App handles 10,000 users at once : 
+
+Performance Testing
+   
+   - Checks application behavior under heavy load.
+
+3. Ticket confirmation email is sent :
+
+Functional Testing
+   
+   - Verifies email functionality.
+
+4. UI is accessible for visually impaired users :
+
+ Usability Testing / Accessibility Testing
+   
+   - Ensures the application is user-friendly for all users.
+
+5. Payment fails gracefully :
+
+ Reliability Testing
+   
+   - Verifies proper handling of failures without crashing.
+
+6. App recovers from server crash : 
+
+Recovery Testing
+   
+   Ensures the application can recover successfully after a failure.
+
+Conclusion
+
+Different testing methodologies focus on different aspects of quality. Using the right testing approach helps ensure that the application is reliable, efficient, and user-friendly.
