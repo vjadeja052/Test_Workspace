@@ -1,0 +1,177 @@
+
+Q2.
+Testing Activities Before Releasing Instagram
+
+Before releasing Instagram to users, the following testing activities should be performed:
+
+1. Login Testing
+
+Verify that users can log in using valid credentials and receive proper error messages for invalid credentials.
+
+2. Notification Testing
+
+Check whether users receive notifications for likes, comments, follows, and messages.
+
+3. Functional Testing
+
+Verify that features such as posting photos, reels, stories, and direct messages work correctly.
+
+4. Performance Testing
+
+Ensure that the application loads quickly and performs smoothly under heavy user traffic.
+
+5. Security Testing
+
+Verify that user data, passwords, and account information are protected from unauthorized access.
+
+
+Q3. Importance of Testing in Every SDLC Phase
+
+Testing is important throughout the Software Development Life Cycle because defects can occur at any stage.
+
+Requirement Phase
+
+Testing helps identify missing or unclear requirements before development begins.
+
+Design Phase
+
+Testing reviews the design to ensure the system architecture meets business needs.
+
+Development Phase
+
+Testing helps developers verify that individual modules work correctly.
+
+Testing Phase
+
+Testers execute test cases to identify defects before release.
+
+Deployment Phase
+
+Testing ensures that the application works correctly in the production environment.
+
+Maintenance Phase
+
+Testing verifies bug fixes and new updates after release.
+
+Example
+
+In BookMyShow, testing is required at every stage to ensure users can search movies, book tickets, make payments, and receive confirmations without errors.
+
+
+Q4. Objectives and Purpose of Testing for a New Spotify Music Streaming Feature
+
+Suppose Spotify is launching a new music streaming feature. The main objectives of testing are:
+
+1. Verify Functionality
+
+Ensure that users can play, pause, skip, and stream songs without issues.
+
+2. Improve User Experience
+
+Ensure that the feature is easy to use and provides a smooth listening experience.
+
+3. Detect and Fix Defects
+
+Identify bugs before the feature is released to users.
+
+4. Ensure Performance
+
+Verify that music streams smoothly without buffering or delays.
+
+5. Maintain Security
+
+Ensure that user accounts and subscription information remain secure.
+
+Conclusion
+
+The primary purpose of testing is to deliver a reliable, secure, and high-quality feature that satisfies user expectations.
+The following diagram shows the main components of a food delivery application such as Zomato or Swiggy.
+
+
+
+---
+
+Task 2: Testing Activities Before Releasing Instagram
+
+Before releasing Instagram to users, the following testing activities should be performed:
+
+1. Login Testing
+
+Verify that users can log in using valid credentials and receive proper error messages for invalid credentials.
+
+2. Notification Testing
+
+Check whether users receive notifications for likes, comments, follows, and messages.
+
+3. Functional Testing
+
+Verify that features such as posting photos, reels, stories, and direct messages work correctly.
+
+4. Performance Testing
+
+Ensure that the application loads quickly and performs smoothly under heavy user traffic.
+
+5. Security Testing
+
+Verify that user data, passwords, and account information are protected from unauthorized access.
+
+
+Q3. Importance of Testing in Every SDLC Phase
+
+Testing is important throughout the Software Development Life Cycle because defects can occur at any stage.
+
+Requirement Phase
+
+Testing helps identify missing or unclear requirements before development begins.
+
+Design Phase
+
+Testing reviews the design to ensure the system architecture meets business needs.
+
+Development Phase
+
+Testing helps developers verify that individual modules work correctly.
+
+Testing Phase
+
+Testers execute test cases to identify defects before release.
+
+Deployment Phase
+
+Testing ensures that the application works correctly in the production environment.
+
+Maintenance Phase
+
+Testing verifies bug fixes and new updates after release.
+
+Example
+
+In BookMyShow, testing is required at every stage to ensure users can search movies, book tickets, make payments, and receive confirmations without errors.
+
+Q4. Objectives and Purpose of Testing for a New Spotify Music Streaming Feature
+
+Suppose Spotify is launching a new music streaming feature. The main objectives of testing are:
+
+1. Verify Functionality
+
+Ensure that users can play, pause, skip, and stream songs without issues.
+
+2. Improve User Experience
+
+Ensure that the feature is easy to use and provides a smooth listening experience.
+
+3. Detect and Fix Defects
+
+Identify bugs before the feature is released to users.
+
+4. Ensure Performance
+
+Verify that music streams smoothly without buffering or delays.
+
+5. Maintain Security
+
+Ensure that user accounts and subscription information remain secure.
+
+Conclusion
+
+The primary purpose of testing is to deliver a reliable, secure, and high-quality feature that satisfies user expectations.
