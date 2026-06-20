@@ -1,0 +1,104 @@
+
+
+Q1. Scrum Board for Food Delivery App Testing
+
+For a Food Delivery App Testing project, a Scrum Board can be divided into four columns: Backlog, To Do, In Progress, and Done.
+
+Backlog
+
+- Notification Testing
+- Coupon Code Testing
+- Order Tracking Testing
+
+To Do
+
+- Login Functionality Testing
+- Payment Gateway Testing
+- User Registration Testing
+
+In Progress
+
+- Restaurant Search Testing
+- Order Placement Testing
+- Cart Functionality Testing
+
+Done
+
+- Requirement Review
+- Test Environment Setup
+
+This Scrum Board helps the testing team track progress and manage tasks efficiently.
+
+---
+
+Q2. Sprint Review in Agile
+
+A Sprint Review is conducted at the end of a sprint to demonstrate completed work to stakeholders and collect feedback.
+
+For example, if Zomato introduces a new Live Order Tracking feature, developers demonstrate the feature during the Sprint Review. Testers present testing results, including executed test cases, defects found, and defects fixed.
+
+The testing team contributes by providing information about the quality and stability of the feature before release.
+
+
+Q3. Agile Testing Activities During a Two-Week Sprint
+
+Suppose WhatsApp is introducing a Dark Mode feature.
+
+Activity 1
+
+Requirement Review – Initially placed in the "To Do" column.
+
+Activity 2
+
+Test Case Preparation – Initially placed in the "To Do" column.
+
+Activity 3
+
+Functional Testing of Dark Mode – Initially placed in the "Backlog" column.
+
+Activity 4
+
+UI Testing on Different Devices – Initially placed in the "Backlog" column.
+
+Activity 5
+
+Regression Testing – Initially placed in the "Backlog" column.
+
+These activities move across the Scrum Board as the sprint progresses.
+
+
+Q4. Scrum Board Tasks for Instagram Stories Feature
+
+I use Instagram daily, so I selected the Stories feature for this task.
+
+Day 1 – Requirement Review and Test Case Preparation
+
+The first step is to understand the Stories feature requirements and prepare test cases. This helps ensure that all expected functionalities are covered before testing begins.
+
+Day 2 – Test Environment Setup
+
+The testing environment and test accounts are prepared. This is necessary before executing any tests on the Stories feature.
+
+Day 3 – Functional Testing
+
+The tester verifies whether users can upload, view, delete, and share stories correctly. This ensures that the core functionality works as expected.
+
+Day 4 – Defect Reporting and Retesting
+
+Any defects found during functional testing are reported to developers. Once fixes are provided, the tester retests the feature to confirm that the issues are resolved.
+
+Day 5 – UI Testing
+
+The Stories interface, icons, buttons, and navigation are checked on different devices and screen sizes to ensure a good user experience.
+
+Day 6 – Regression Testing
+
+Regression testing is performed to ensure that the Stories feature has not affected other Instagram functionalities such as posts, reels, or direct messages.
+
+Day 7 – Integration Testing and Final Verification
+
+The Stories feature is tested with related modules such as user profiles, followers, and notifications. Final verification is performed before marking the feature as complete.
+
+Conclusion
+
+Breaking the Stories feature into multiple testing tasks helps the Scrum team track progress efficiently and ensures complete testing before release.
