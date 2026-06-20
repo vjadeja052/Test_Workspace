@@ -1,0 +1,91 @@
+
+
+Q1. QA and QC Activities in Zomato
+
+I use Zomato regularly for ordering food. In a software project, both QA and QC play important roles.
+
+QA (Quality Assurance) Activities
+
+1. Reviewing requirements related to food ordering and delivery.
+2. Preparing test plans and testing strategies before testing begins.
+3. Ensuring development and testing processes follow quality standards.
+
+QC (Quality Control) Activities
+
+1. Testing restaurant search and food ordering features.
+2. Executing test cases and reporting defects.
+3. Retesting defects after developers fix them.
+
+Conclusion
+
+QA focuses on preventing defects, while QC focuses on identifying defects in the product.
+
+
+Q2. Comparison Between QA and QC
+
+Quality Assurance (QA)
+
+- Focuses on improving the development process.
+- Aims to prevent defects before they occur.
+- Includes planning, process reviews, and quality standards.
+- Performed throughout the software development lifecycle.
+
+Quality Control (QC)
+
+- Focuses on checking the final product.
+- Aims to find defects in the software.
+- Includes testing, inspection, and defect reporting.
+- Performed after development activities.
+
+Impact on Quality
+
+QA improves the development process, while QC improves the final software product by detecting defects before release.
+
+
+Q3. Difference Between Testing and Debugging
+
+Consider a food delivery application where a customer places an order and the payment amount is deducted twice.
+
+A tester identifies this issue while executing test cases and reports it as a defect. This activity is called testing.
+
+A developer then investigates the code, finds the cause of the issue, and fixes it. This activity is called debugging.
+
+Therefore, testing is the process of finding defects, while debugging is the process of fixing them.
+
+
+Q4. Destructive Thinking in a Movie Ticket Booking App
+
+As a tester, I would think differently from a normal user and try unusual actions to find hidden defects.
+
+1. Enter Invalid Data
+
+I would enter special characters, blank values, or extremely long names in booking forms to check how the application handles invalid input.
+
+2. Click Buttons Repeatedly
+
+I would click the "Book Ticket" button multiple times quickly to check whether duplicate bookings are created.
+
+3. Interrupt the Booking Process
+
+I would disconnect the internet during payment or seat selection to verify whether the application handles failures properly.
+
+Conclusion
+
+Destructive thinking helps testers discover defects that developers may not consider during development.
+
+
+Q5. Why Testers Need a Different Mindset Than Developers
+
+After discussing this topic, I learned two important points.
+
+Point 1
+
+Developers focus on making features work correctly, while testers focus on finding situations where those features may fail.
+
+Point 2
+
+Testers think from the user's perspective and often try unexpected actions, whereas developers usually focus on expected behavior.
+
+Summary
+
+A different mindset helps testers identify hidden defects and improve software quality before it reaches users.
