@@ -1,0 +1,79 @@
+ 1: SDLC Phases in Instagram App
+
+SDLC Phase| Example from Instagram
+
+1.Requirement Gathering:
+ Users wanted a feature to share short videos and reels.
+
+2.Design| Designers created the interface and layout for the Reels section.
+
+3.Development :
+Developers coded the Reels feature including upload, editing, and viewing functionality.
+
+4.Testing :
+Testers verified that reels upload correctly, videos play smoothly, and no major bugs exist.
+
+5.Deployment:
+Instagram released the Reels feature through an application update.
+
+6.Maintenance:
+Instagram continuously fixes bugs, improves performance, and adds new effects and filters.
+
+Conclusion
+
+The Reels feature in Instagram follows all SDLC phases from requirement gathering to maintenance, ensuring a reliable and user-friendly experiences 
+
+Q.2: Comparison of Waterfall, Agile, and Spiral Models
+
+
+Waterfall Model :
+
+The Waterfall model follows a fixed sequence of phases. Once a phase is completed, it is difficult to make changes. Customer feedback is usually collected after development is completed. Risk handling is limited because problems are often discovered late. A simple billing module in Flipkart can be developed using the Waterfall model.
+
+Agile Model :
+
+The Agile model is highly flexible. Changes can be made at any stage based on customer requirements. Customer feedback is collected continuously during development. Frequent testing helps reduce risks. Apps like Swiggy often use Agile because new features are added regularly.
+
+Spiral Model :
+
+The Spiral model focuses heavily on risk analysis. Development is done in multiple cycles, and risks are identified and managed in every cycle. Customer feedback is also taken after each cycle. This model is useful for complex projects such as AI-based recommendation systems in Flipkart.
+
+Key Differences :
+
+Waterfall has low flexibility, Agile has high flexibility, and Spiral provides moderate flexibility.
+Waterfall collects feedback mostly at the end, Agile collects continuous feedback, while Spiral collects feedback after each cycle.
+
+Waterfall handles risks late, Agile reduces risks through continuous testing, and Spiral focuses strongly on risk management.
+
+Conclusion:
+ Waterfall is suitable for fixed requirements, Agile is suitable for frequently changing requirements, and Spiral is best for high-risk projects.
+
+Q 3. Entry and Exit Criteria for "Add to Cart" Feature
+
+Entry Criteria
+
+Before testing the "Add to Cart" feature, the following conditions should be met:
+
+1. The Add to Cart feature should be completely developed and available in the testing environment.
+
+2. Product details such as name, price, and stock information should be available in the database.
+
+3. Test cases and test data should be prepared.
+
+Exit Criteria
+
+Testing of the Add to Cart feature can be completed when:
+
+1. All planned test cases have been executed successfully.
+2. No critical or high-priority defects remain open.
+3. The feature works correctly with the cart and checkout modules.
+
+Conclusion: Entry criteria ensure that testing starts in a stable environment, while exit criteria ensure that the feature is ready for release.
+
+
+
+Q 4. Testing the "Book Ticket" Feature in a BookMyShow-like App
+
+I would start testing the Book Ticket feature when the development of the feature is completed and the required modules such as login, seat selection, and payment are available for testing.
+
+I would stop testing when all test cases have been executed, major defects have been fixed, and the feature is working correctly without any critical issues. This ensures that users can book tickets smoothly before the feature is released.
