@@ -1,18 +1,3 @@
-Q 1: Test Conditions from Functional Requirements
-
-I selected a sample SRS of a food delivery application similar to Zomato. Based on the functional requirements, the following test conditions can be derived:
-
-1. Verify that a user can register successfully.
-2. Verify that a user can log in using valid credentials.
-3. Verify that restaurants can be searched by name.
-4. Verify that restaurants can be searched by cuisine.
-5. Verify that restaurant details are displayed correctly.
-6. Verify that food items can be added to the cart.
-7. Verify that users can place orders successfully.
-8. Verify that payments can be completed using available payment methods.
-
-These test conditions help ensure that all major functionalities work according to the requirements.
-
 Q 2. Test Cases for Restaurant Search Feature
 
 Requirement ID: FR-01
@@ -113,34 +98,3 @@ AND release_year > 2018;
 Conclusion
 
 These SQL queries use SELECT, WHERE, ORDER BY, LIMIT, LIKE, and COUNT clauses to retrieve different types of information from the movies table.
-
-Q 5. Using SQL to Verify a Requirement from an SRS
-
-Requirement ID: FR-05
-
-Requirement: The system shall display all available movie genres to users while searching for movies.
-
-As a QA tester, I would verify whether the genres displayed in the application are actually available in the database. This helps ensure that users see accurate information.
-
-SQL Query
-
-SELECT DISTINCT genre
-FROM movies;
-
-Expected Result
-
-The query should return all available genres stored in the database, such as:
-
-- Action
-- Comedy
-- Drama
-- Horror
-- Thriller
-
-Verification Process
-
-I would compare the genres displayed in the application with the results returned by the SQL query. If both match, the requirement is satisfied. If any genre is missing or displayed incorrectly, it would be reported as a defect.
-
-Conclusion
-
-SQL queries help testers verify that the backend database supports the requirements defined in the SRS document and that users receive correct information in the application.
