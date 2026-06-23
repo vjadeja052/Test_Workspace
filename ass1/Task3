@@ -98,3 +98,47 @@ AND release_year > 2018;
 Conclusion
 
 These SQL queries use SELECT, WHERE, ORDER BY, LIMIT, LIKE, and COUNT clauses to retrieve different types of information from the movies table.
+
+
+Q1. Test Conditions Derived from Instagram SRS
+
+I referred to a sample Instagram SRS document and identified the following test conditions from the Functional Requirements section.
+
+1. Verify that a new user can register successfully with valid details.
+
+2. Verify that a user can log in using a valid username and password.
+
+3. Verify that a user can upload a photo or video post successfully.
+
+4. Verify that a user can upload a story successfully.
+
+5. Verify that an uploaded story disappears automatically after 24 hours.
+
+6. Verify that a user can like and unlike a post.
+
+7. Verify that a user can follow and unfollow another user.
+
+8. Verify that a user can send and receive direct messages successfully.
+
+Conclusion
+
+These test conditions help ensure that the main Instagram features work correctly according to the functional requirements defined in the SRS document.
+
+
+Q5. Using SQL Query to Verify an SRS Requirement
+
+Requirement
+
+The system shall allow users to log in using a valid username and password.
+
+SQL Query
+
+SELECT username
+FROM users
+WHERE username = 'vidhyaba'
+
+Explanation
+
+I would use this SQL query to check whether the username exists in the database. If the username is found in the users table, it means the backend contains the required user data.
+
+This helps verify that the login feature is supported by the database and that valid users can access the application.
