@@ -1,0 +1,52 @@
+Instagram Project
+
+Software Requirements Specification (SRS)
+
+Version: 1.0
+
+Prepared By: vidhyaba jadeja
+
+Date: 22/06/2026
+
+Introduction
+
+I selected Instagram for this Software Requirements Specification (SRS) because it is one of the applications that I use daily.
+
+Instagram is a social media platform that allows users to share photos, videos, reels, and stories. Users can also interact with each other through likes, comments, follows, and direct messages.
+
+This document describes the functional and technical requirements of the Instagram application. It will help developers, testers, and stakeholders understand the expected behavior of the system.
+
+
+
+Purpose
+
+The purpose of this SRS document is to define the software requirements of Instagram and provide a clear understanding of the application's features and functionality.
+
+This document will be used during development and testing activities.
+
+
+Scope
+
+The scope of this project includes:
+
+- User Registration
+- Login and Logout
+- Profile Management
+- Create Post
+- Stories
+- Reels
+- Follow and Unfollow
+- Like and Comment
+- Direct Messaging
+- Change Password
+
+
+References
+
+The information used to prepare this document was collected from:
+
+- Instagram Mobile Application
+- Instagram User Interface
+- Software Testing Course Material
+- Internet Research
+- Sample SRS Documents
