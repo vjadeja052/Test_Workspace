@@ -781,3 +781,191 @@ The system shall allow users to securely logout.
 
 User session is terminated successfully.
 
+3.5 Non-Functional Requirements
+
+ Performance
+
+ Login response time should be less than 2 seconds.
+ Feed loading should be fast and responsive.
+ Search results should be displayed quickly.
+
+ Security
+
+ User passwords must be encrypted.
+ HTTPS should be used for secure communication.
+ Unauthorized access must be prevented.
+
+ Reliability
+
+ The system should operate without data loss.
+ User data should be stored securely.
+
+Availability
+
+ The application should be available 24×7.
+ System uptime should be maintained at 99.9%.
+
+ Scalability
+
+ The system should support increasing numbers of users and posts.
+
+ Usability
+
+ The interface should be user-friendly and easy to navigate.
+
+ Compatibility
+
+The application should support Android, iOS, and Web platforms.
+
+
+3.6 Inverse Requirements
+
+ The system shall not allow users to access another user's private information without authorization.
+ The system shall not allow login with invalid credentials.
+ The system shall not allow duplicate usernames or email addresses during registration.
+ The system shall not allow users to modify or delete content belonging to other users.
+ The system shall not display private account content to unauthorized users.
+ The system shall not store user passwords in plain text format.
+ The system shall not permit unauthorized access to the database.
+
+ 3.7 Design Constraints
+
+ The application shall require an active internet connection for most features.
+ The system shall comply with data privacy and security regulations.
+ The application shall support Android, iOS, and Web platforms.
+ Media uploads shall be restricted to supported file formats only.
+ The system shall enforce password and authentication policies.
+ Storage and server resources shall be limited based on system capacity.
+ Users shall be required to follow community guidelines and content policies.
+
+
+3.8 Logical Database Requirements
+
+The Instagram application shall maintain a database to store user information, posts, comments, likes, messages, and notifications.
+ User
+
+Stores information about registered users including:
+
+ User ID
+ Username
+ Email Address
+ Password
+ Bio
+ Profile Picture
+
+ Post
+
+Stores information related to uploaded posts including:
+
+ Post ID
+ User ID
+ Caption
+ Media File
+ Upload Date
+
+Comment
+
+Stores comments made by users on posts including:
+
+ Comment ID
+ Post ID
+ User ID
+ Comment Text
+
+Like
+
+Stores user likes on posts including:
+
+ Like ID
+ User ID
+ Post ID
+
+Story
+
+Stores temporary stories uploaded by users including:
+
+ Story ID
+ User ID
+ Media File
+ Upload Date
+
+ Reel
+
+Stores reel information including:
+
+ Reel ID
+ User ID
+ Video File
+ Caption
+
+ Message
+
+Stores direct messages exchanged between users including:
+
+ Message ID
+ Sender ID
+ Receiver ID
+ Message Content
+ Sent Time
+
+ Notification
+
+Stores notification details including:
+
+ Notification ID
+ User ID
+ Notification Type
+ Notification Date
+
+ 3.9 Other Requirements
+
+ The system shall provide a user-friendly and responsive interface.
+ The application shall support future enhancements and feature updates.
+ User data shall be backed up regularly to prevent data loss.
+ The system shall maintain user privacy and confidentiality.
+ The application shall provide clear error messages for invalid operations.
+ The system shall generate notifications for important user activities.
+ The application shall support smooth media uploading and viewing functionality.
+ The system shall maintain data consistency across all modules.
+
+4. Analysis Models
+
+The Instagram application follows a client-server architecture where users interact with the application through mobile or web interfaces. User requests are processed by the server, which communicates with the database to store and retrieve information.
+
+ User Interaction Flow
+
+1. User registers or logs into the application.
+2. User accesses the home feed.
+3. User can upload posts, stories, and reels.
+4. User can like, comment, and share content.
+5. User can follow or unfollow other users.
+6. User can send and receive direct messages.
+7. The system generates notifications for user activities.
+8. User can logout securely from the application.
+
+The system maintains data consistency and secure communication between users, servers, and the database throughout all operations.
+
+ 5. Change Management Process
+
+Any changes to the Instagram application requirements shall follow a structured change management process to ensure system stability and quality.
+
+ Change Request Process
+
+1. A change request shall be submitted by stakeholders, developers, testers, or project managers.
+2. The requested change shall be reviewed and analyzed.
+3. The impact of the change on the system shall be evaluated.
+4. Approval shall be obtained before implementation.
+5. The approved change shall be developed and tested.
+6. Documentation shall be updated accordingly.
+7. The updated system shall be deployed after successful testing.
+
+Version Control
+
+All requirement changes shall be documented.
+Version numbers shall be updated for every approved modification.
+revious versions of the SRS shall be maintained for reference.
+
+ Change Approval
+
+Changes shall be approved by the project manager and relevant stakeholders before implementation.
+
