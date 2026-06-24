@@ -1,4 +1,4 @@
-Instagram Project
+Instagram SRS
 
 Software Requirements Specification (SRS)
 
@@ -50,3 +50,734 @@ The information used to prepare this document was collected from:
 - Software Testing Course Material
 - Internet Research
 - Sample SRS Documents
+
+2. Specific Requirements
+2.1 External Interface Requirements
+2.1.1 User Interfaces
+
+The Instagram application shall provide the following user interfaces:
+
+Login Screen
+Username/Email field
+Password field
+Login button
+Forgot Password link
+Sign Up option
+Registration Screen
+Username field
+Email field
+Mobile Number field
+Password field
+Confirm Password field
+Register button
+Home Feed Screen
+Stories section
+Posts feed
+Like button
+Comment button
+Share button
+Navigation menu
+Profile Screen
+Profile photo
+Username
+Bio
+Followers count
+Following count
+Posts gallery
+Edit Profile button
+Reels Screen
+Video player
+Like option
+Comment option
+Share option
+Follow option
+Messaging Screen
+Chat list
+Search conversations
+Send messages
+Media sharing options
+
+2.1.2 Hardware Interfaces
+
+The application shall interact with the following hardware components:
+
+Mobile Camera
+Mobile Storage
+Microphone
+Speaker
+GPS Location Services
+
+
+The camera shall be used for capturing photos, videos, stories, and reels.
+
+The microphone shall be used for recording audio and voice messages.
+
+The GPS system shall provide location tagging functionality.
+
+2.1.3 Software Interfaces
+
+The system shall communicate with:
+
+Backend Server
+User authentication
+Data processing
+Content management
+Database Server
+User information
+Posts
+Comments
+Likes
+Messages
+Notifications
+Cloud Storage Service
+Images
+Videos
+Stories
+Reels
+Third-Party Services
+Email verification service
+Push notification service
+SMS OTP service
+
+
+2.1.4 Communication Interfaces
+
+The application shall support communication through:
+
+HTTPS Protocol
+Secure data transmission
+Encrypted communication
+REST APIs
+Client-server communication
+Data exchange
+Push Notifications
+Real-time alerts
+User engagement updates
+Internet Connectivity
+Wi-Fi
+Mobile Data (4G/5G)
+
+The system shall maintain secure communication using SSL/TLS encryption protocols.
+
+ 3.1 Front End Details
+
+The Instagram application shall provide a user-friendly and responsive interface that enables users to interact with various features efficiently.
+
+
+3.1.1 Login Page
+
+Description
+
+The Login Page allows registered users to access their accounts securely.
+
+ Components
+
+- Username/Email Input Field
+- Password Input Field
+- Login Button
+- Forgot Password Link
+- Sign Up Link
+
+Functions
+
+- Validate user credentials
+- Display error messages for invalid login attempts
+- Redirect successful users to Home Feed
+
+
+3.1.2 Registration Page
+
+ Description
+
+The Registration Page enables new users to create accounts.
+
+Components
+
+- Username Field
+- Email Field
+- Mobile Number Field
+- Password Field
+- Confirm Password Field
+- Register Button
+
+Functions
+
+- Validate user inputs
+- Verify unique email and username
+- Create new user account
+
+
+3.1.3 Home Feed Page
+
+Description
+
+The Home Feed displays content from followed users and recommended content.
+
+Components
+
+- Stories Section
+- Posts Feed
+- Like Button
+- Comment Button
+- Share Button
+- Navigation Bar
+
+Functions
+
+- Display posts dynamically
+- Refresh content automatically
+- Allow interaction with posts
+
+3.1.4 Profile Page
+
+Description
+
+The Profile Page displays personal account information and uploaded content.
+
+Components
+
+-Profile Picture
+- Username
+- Bio
+- Followers Count
+-Following Count
+- Posts Grid
+- Edit Profile Button
+
+Functions
+
+- View profile details
+-Update profile information
+- Display uploaded posts
+
+
+ 3.1.5 Story Interface
+
+Description
+
+Allows users to upload and view temporary content.
+
+Components
+
+- Story Viewer
+- Upload Story Button
+-Story Progress Indicator
+
+Functions
+
+- Upload image/video stories
+- View stories of followed users
+- Automatically remove stories after 24 hours
+
+
+3.1.6 Reels Interface
+
+ Description
+
+Allows users to create and view short-form video content.
+
+Components
+
+- Video Player
+- Like Button
+- Comment Button
+- Share Button
+- Follow Button
+
+Functions
+
+- Play reels continuously
+-Interact with reel content
+- Upload new reels
+
+
+
+ 3.1.7 Messaging Interface
+
+ Description
+
+Provides communication between users.
+
+ Components
+
+- Chat List
+- Search Chat
+- Message Input Box
+- Send Button
+- Media Sharing Option
+
+ Functions
+
+- Send messages
+- Receive messages
+- Share photos and videos
+
+
+
+ 3.1.8 Search Interface
+
+Description
+
+Allows users to discover content and accounts.
+
+Components
+
+- Search Bar
+- Search Results List
+- Suggested Accounts
+- Trending Content
+
+Functions
+
+- Search users
+- Search hashtags
+- Search reels and posts
+
+
+
+ 3.1.9 Notification Interface
+
+Description
+
+Displays user activity updates.
+
+ Components
+
+- Notification List
+- Follow Notifications
+- Like Notifications
+- Comment Notifications
+- Message Notifications
+
+ Functions
+
+- Display real-time updates
+- Notify user activities
+- Redirect users to related content
+
+3.2 Technical Requirements
+
+The Instagram application shall be developed using modern technologies that ensure scalability, security, reliability, and maintainability.
+
+
+3.2.1 Client-Side Requirements
+ Mobile Application
+
+-Platform: Android and iOS
+- Responsive user interface
+- Camera integration
+- Gallery access
+- Push notification support
+
+Web Application
+
+- Compatible with major browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+
+Responsive design for different screen sizes
+
+ 3.2.2 Server-Side Requirements
+
+The backend server shall be responsible for:
+
+- User authentication
+- Profile management
+- Post management
+- Story management
+- Reel management
+- Messaging services
+- Notification services
+
+Server Features
+
+ REST API support
+ Session management
+ Request validation
+ Error handling
+
+
+3.2.3 Database Requirements
+
+The database shall store:
+
+- User information
+- Posts
+- Comments
+- Likes
+- Followers and Following data
+- Stories
+- Reels
+- Messages
+- Notifications
+
+ Database Features
+
+ Data consistency
+ Data integrity
+ Backup and recovery support
+ High availability
+
+3.2.4 Cloud Storage Requirements
+
+Cloud storage shall be used for:
+
+ Images
+ Videos
+ Stories
+ Reels
+ Profile pictures
+
+Features
+
+
+ Secure file storage
+ Fast content delivery
+ Automatic backup
+ Scalable storage capacity
+
+3.2.5 Network Requirements
+
+The system shall support:
+
+ Wi-Fi connectivity
+ Mobile Data (4G/5G)
+ Secure internet communication
+
+Communication Protocols
+
+ HTTPS
+ SSL/TLS Encryption
+ REST APIs
+
+3.2.6 Security Requirements
+
+The system shall implement:
+
+ Password encryption
+ User authentication
+ Session timeout
+OTP verification
+Access control mechanisms
+ Data encryption during transmission
+
+ 3.2.7 Performance Requirements
+
+ Response Time
+
+ Login: Less than 2 seconds
+ Search: Less than 2 seconds
+ Feed Loading: Less than 3 seconds
+ Post Upload: Less than 5 seconds
+
+Concurrent Users
+
+The system shall support a large number of simultaneous users without performance degradation.
+
+
+
+ 3.2.8 Availability Requirements
+
+The application shall provide:
+
+ 24 × 7 availability
+Minimum 99.9% uptime
+Disaster recovery support
+Automatic failover mechanisms
+
+3.2.9 Compatibility Requirements
+
+The application shall be compatible with:
+
+Operating Systems
+
+ Android 10 and above
+ iOS 14 and above
+ Windows
+ macOS
+
+ Browsers
+
+ Chrome
+ Firefox
+ Edge
+ Safari
+
+
+3.3 Functional Validations
+
+ FR-01 User Registration
+
+Description
+
+The system shall allow new users to create an account.
+
+ Inputs
+ Username
+ Email Address
+Mobile Number
+ Password
+
+ Validation
+
+ Username must be unique.
+ Email must be unique.
+ Password must contain at least 8 characters.
+
+ Expected Result
+
+User account is successfully created.
+
+
+
+ FR-02 User Login
+
+ Description
+
+The system shall allow registered users to log into the application.
+
+ Inputs
+
+ Username/Email
+ Password
+
+ Validation
+
+Credentials must match existing records.
+ Expected Result
+
+User is redirected to the Home Feed.
+
+ FR-03 Forgot Password
+
+ Description
+
+The system shall allow users to reset their password.
+
+Inputs
+
+ Registered Email Address
+
+Validation
+
+Email must exist in the system.
+
+Expected Result
+
+Password reset link or OTP is sent.
+
+FR-04 Profile Management
+
+ Description
+
+The system shall allow users to update their profile information.
+
+Functions
+ Change profile picture
+ Edit bio
+ Update username
+Add website link
+
+Expected Result
+
+Profile information is updated successfully.
+
+ FR-05 Create Post
+
+ Description
+
+The system shall allow users to upload photos and videos.
+
+Inputs
+
+ Media File
+ Caption
+Location
+
+ Validation
+
+ Supported file format only.
+ File size must be within allowed limits.
+
+ Expected Result
+
+Post appears on the user's profile and feed.
+
+FR-06 Edit Post
+
+Description
+
+The system shall allow users to modify post captions.
+
+ Expected Result
+
+Updated caption is displayed.
+
+ FR-07 Delete Post
+
+ Description
+
+The system shall allow users to delete their own posts.
+
+Expected Result
+
+Selected post is permanently removed.
+
+ FR-08 Like Post
+
+ Description
+
+The system shall allow users to like and unlike posts.
+
+Expected Result
+
+Like count is updated immediately.
+
+
+
+ FR-09 Comment on Post
+
+ Description
+
+The system shall allow users to add comments on posts.
+
+Expected Result
+
+Comment becomes visible under the post.
+
+
+ FR-10 Follow User
+
+ Description
+
+The system shall allow users to follow other accounts.
+
+Expected Result
+
+Follower count increases.
+
+ FR-11 Unfollow User
+
+ Description
+
+The system shall allow users to unfollow accounts.
+
+Expected Result
+
+Follower count decreases.
+
+ FR-12 Upload Story
+
+Description
+
+The system shall allow users to upload stories.
+
+Validation
+
+Stories remain visible for 24 hours.
+
+Expected Result
+
+Story appears in the stories section.
+
+ FR-13 Upload Reels
+ Description
+
+The system shall allow users to upload short videos.
+
+ Expected Result
+
+Reel becomes visible in the Reels section.
+
+ FR-14 Search Functionality
+
+Description
+
+The system shall allow users to search for:
+ Users
+ Hashtags
+ Reels
+ Posts
+
+ Expected Result
+
+Relevant search results are displayed.
+
+
+FR-15 Direct Messaging
+
+ Description
+
+The system shall allow users to exchange messages.
+
+Functions
+
+ Send message
+ Receive message
+ Share media
+
+ Expected Result
+
+Message is delivered successfully.
+
+ FR-16 Notifications
+
+ Description
+
+The system shall notify users regarding activities.
+Events
+
+Likes
+ Comments
+ New Followers
+ Messages
+ Mentions
+
+ Expected Result
+
+Notification appears instantly.
+
+FR-17 Privacy Settings
+
+ Description
+
+The system shall allow users to switch between Public and Private accounts.
+
+ Expected Result
+
+Privacy settings are applied successfully.
+
+FR-18 Block User
+Description
+
+The system shall allow users to block unwanted accounts.
+
+Expected Result
+
+Blocked users cannot interact with the account.
+
+
+FR-19 Report Content
+
+Description
+
+The system shall allow users to report inappropriate content.
+
+ Expected Result
+
+Reported content is submitted for review.
+
+
+ FR-20 Logout
+
+ Description
+
+The system shall allow users to securely logout.
+
+ Expected Result
+
+User session is terminated successfully.
+
