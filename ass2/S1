@@ -1,1 +1,15 @@
-Ass2
+Task 1. Website: Flipkart
+
+1. Login popup opens automatically :
+When I opened the Flipkart homepage, the login popup came automatically.
+Why I think it is a defect: Sometimes I just want to see products, but the popup comes first and interrupts me.
+
+
+2. Search suggestions come a little late :
+When I typed in the search box, the suggestions took some time to appear.
+Why I think it is a defect: It makes searching slower and is not a smooth experience.
+
+
+3. Homepage banners load slowly:
+Some images and banners took a few seconds to load.
+Why I think it is a defect: Users have to wait to see offers, so it gives a poor user experience.
