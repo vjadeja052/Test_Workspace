@@ -1,0 +1,25 @@
+SDLC Phases for Instagram
+
+1. Requirement
+Instagram Activity:
+Users should be able to upload photos, videos, reels, and send messages.
+
+2 Design
+Instagram Activity:
+ Design the login page, home page, profile page, and reels interface.
+
+3 Coding
+Instagram Activity:
+Developers write code for login, posting, likes, comments, reels, and messaging.
+
+4 Testing
+Instagram Activity:
+Test login, upload posts, likes, comments, reels, and chat features.
+
+5 Deployment
+Instagram Activity:
+Release the updated Instagram app to users through the Play Store and App Store.
+
+6 Maintenance
+Instagram Activity:
+Fix bugs, improve performance, and add new features regularly.
