@@ -1,0 +1,16 @@
+1. Error
+An error is a mistake made by the developer while writing the code or understanding the requirement.
+
+Example: In PhonePe, the developer writes the wrong cashback calculation.
+
+
+2. Defect
+A defect is a problem found by the tester during software testing.
+
+Example: In Paytm, after successful payment, the status still shows "Pending"
+
+
+3. Bug
+A bug is a defect that has been accepted by the developer for fixing.
+
+Example: In Instagram, the app crashes while uploading a story, and the developer accepts it as a bug to fix.
