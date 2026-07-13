@@ -1,0 +1,13 @@
+App : Swiggy 
+
+1. Security Risk:
+User payment details or personal data may not be secure.
+Impact: User data can be stolen and users may lose trust in the app.
+
+2. Performance Risk:
+The app may become slow when many users order food at the same time.
+Impact: Users may not be able to place orders quickly.
+
+3. Usability Risk: 
+The app interface may be confusing for new users.
+Impact: Users may face difficulty while searching food or placing an order.
