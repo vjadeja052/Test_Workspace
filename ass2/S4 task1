@@ -1,0 +1,19 @@
+ Testing Activities for Instagram
+
+1. Login Testing
+- Check whether users can log in with valid credentials.
+
+2. Sign Up Testing
+- Verify that new users can create an account successfully.
+
+3. Post Upload Testing
+- Check whether users can upload photos and videos without errors.
+
+4. Like and Comment Testing
+- Verify that users can like posts and add comments correctly.
+
+5. Messaging Testing
+- Check whether users can send and receive messages successfully.
+
+6. Notification Testing
+- Verify that users receive notifications for likes, comments, and messages.
