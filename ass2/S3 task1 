@@ -1,0 +1,26 @@
+1: V-Model
+
+Developer Side
+- Requirement Analysis
+- System Design
+- Architecture Design
+- Module Design
+- Coding
+
+Tester Side
+- Acceptance Testing
+- System Testing
+- Integration Testing
+- Unit Testing
+- Testing Execution
+
+
+1 Developer Role
+- Gather requirements.
+- Design the system.
+- Write the code.
+
+2 Tester Role
+- Prepare test cases.
+- Execute testing.
+- Report defects.
