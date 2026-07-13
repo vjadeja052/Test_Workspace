@@ -1,0 +1,9 @@
+App: Instagram
+
+Quality Assurance (QA):
+QA is done before and during software development.
+The team checks the requirements, makes a test plan, and follows the correct development process to prevent bugs.
+
+Quality Control (QC):
+QC is done after coding is completed. 
+The tester checks features like login, posting photos, reels, stories, and messaging. If any bug is found, it is reported to the developer for fixing.
