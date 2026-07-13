@@ -1,0 +1,22 @@
+ STLC Phases for Login Feature
+
+1. Requirement Analysis
+- Understand the login requirements such as username, password, and OTP.
+
+2. Test Planning
+- Prepare the test plan, testing strategy, and testing schedule.
+
+3. Test Case Design
+- Create test cases for valid login, invalid login, and forgot password.
+
+4. Test Environment Setup
+- Set up the application, test server, and test accounts for login testing.
+
+5. Test Execution
+- Execute all login test cases and record the results.
+
+6. Defect Reporting
+- Report login bugs such as incorrect password validation or login failure.
+
+7. Test Closure
+- Prepare the final test summary report and complete the testing process.
