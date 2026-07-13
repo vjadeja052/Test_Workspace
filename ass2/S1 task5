@@ -1,0 +1,8 @@
+(a) Book Now button does not respond on mobile: Defect
+Reason: The button is not working when clicked. It should work, so this is a defect.
+
+(b) There is no Logout option: Defect
+Reason: If the application should have a logout feature but it is missing, then it is a defect.
+
+(c) The app sometimes loads slowly during IPL match days: Risk
+Reason: During heavy traffic, the app may become slow. This is a performance risk because it can affect users in the future.
