@@ -1,0 +1,28 @@
+Testing Activities for Each Phase of the V-Model (Swiggy)
+
+1 Requirement Analysis
+- Review the requirements for food search, cart, payment, and order tracking.
+
+2 System Design
+- Prepare test scenarios for the complete food ordering process.
+
+3 Architecture Design
+- Plan integration testing between the app, payment gateway, and restaurant system.
+
+4 Module Design
+- Create unit test cases for Login, Search, Cart, and Payment modules.
+
+5 Coding
+- Perform unit testing for each module after coding.
+
+6 Unit Testing
+- Test the Login module.
+
+7 Integration Testing
+- Verify that Cart, Payment, and Order modules work together correctly.
+
+8 System Testing
+- Test the complete order process from food selection to order confirmation.
+
+### Acceptance Testing
+- Verify that the application meets customer requirements before release.
