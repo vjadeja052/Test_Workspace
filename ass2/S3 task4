@@ -1,1 +1,21 @@
-V-Model vs RAD Model
+V-Model (Verification and Validation Model)
+Definition :
+
+The V-Model (Verification and Validation Model) is an SDLC model in which every development phase has a corresponding testing phase. Testing activities are planned from the beginning, helping to detect defects early and improve software quality.
+
+V-Model Phases:
+
+Verification (Development Side):
+
+Business Requirement Specification (BRS) – Defines business requirements.
+System Requirement Specification (SRS) – Describes the system requirements.
+High-Level Design (HLD) – Defines the overall system architecture and modules.
+Low-Level Design (LLD) – Describes the detailed design of each module.
+Coding – Developers implement the software.
+
+
+Validation (Testing Side) :
+Unit Testing – Tests individual modules.
+Integration Testing – Tests interaction between modules.
+System Testing – Tests the complete system.
+Acceptance Testing – Verifies the software meets user requirements.
