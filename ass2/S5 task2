@@ -1,0 +1,78 @@
+2. Entry and Exit Criteria for Flipkart Login Module
+
+ 1. Test Planning
+
+Entry Criteria
+- Requirements are available.
+- Project scope is defined.
+
+Exit Criteria
+- Test plan is prepared.
+- Test plan is approved.
+
+2. Test Monitoring
+
+Entry Criteria
+- Testing activities have started.
+- Team members are assigned.
+
+Exit Criteria
+- Testing progress is tracked.
+- Issues are updated.
+
+3. Test Analysis
+
+Entry Criteria
+- SRS document is available.
+- Requirements are clear.
+
+Exit Criteria
+- Test scenarios are prepared.
+- Test conditions are identified.
+
+4. Test Design
+
+Entry Criteria
+- Test scenarios are ready.
+
+Exit Criteria
+- Test cases are completed.
+- Test data is prepared.
+
+5. Test Implementation
+
+Entry Criteria
+- Test cases are approved.
+
+Exit Criteria
+- Test environment is ready.
+- Test suite is prepared.
+
+6. Test Execution
+
+Entry Criteria
+- Test environment is ready.
+- Test data is available.
+
+Exit Criteria
+- All test cases are executed.
+- Bugs are reported.
+
+ 7. Test Reporting
+
+Entry Criteria
+- Test execution is completed.
+
+Exit Criteria
+- Test summary report is prepared.
+- Results are shared.
+
+ 8. Test Closure
+
+Entry Criteria
+- Testing is completed.
+- Reports are available.
+
+Exit Criteria
+- Test closure report is prepared.
+- Testing is officially closed.
