@@ -1,0 +1,28 @@
+2: RACI Chart for Flipkart Shopping Cart Feature
+
+Introduction
+
+A RACI Chart is used to define the roles and responsibilities of team members during software testing.
+It helps everyone understand who performs the work, who is responsible for the final outcome, who provides
+suggestions, and who should be informed.
+
+RACI Meaning
+
+- R (Responsible):** Performs the task.
+- A (Accountable):** Has final responsibility for the task.
+- C (Consulted):** Provides suggestions or technical support.
+- I (Informed):** Receives updates about the task.
+
+RACI Matrix
+
+| Activity          | Tester | Test Leader | Developer | Product Owner |
+|----------         |---------|-------------|-----------|--------------|
+| Test Planning     | C       | A           | I         | R            |
+| Test Case Design  | R       | A           | C         | I            |
+| Test Execution    | R       | A           | C         | I            |
+| Bug Reporting     | R       | A           | C         | I            |
+
+ Conclusion
+
+The RACI Chart clearly defines the responsibility of each team member. 
+It improves communication, avoids confusion, and helps complete testing activities efficiently.
