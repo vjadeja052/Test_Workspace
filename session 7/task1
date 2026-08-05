@@ -1,0 +1,68 @@
+Test Plan for Instagram Login Feature
+
+1. Objective
+
+The objective of this test plan is to verify that the Instagram login feature works correctly,
+securely, and allows users to access their accounts without any issues.
+
+2.Scope
+
+This test plan covers the testing of the Instagram login feature using valid and invalid login credentials.
+
+3. Test Items
+
+- Login page
+- Email/Username field
+- Password field
+- Login button
+- Forgot Password option
+- Error messages
+
+4. Features to be Tested
+
+- Verify that users can log in with valid credentials.
+- Verify that an error message is displayed for invalid credentials.
+- Verify that the Login button works correctly.
+- Verify that the Forgot Password feature works.
+- Verify that the Password field hides entered characters.
+- Verify that the user is redirected to the home page after successful login.
+
+5. Features Not to be Tested
+
+- User Registration
+- Profile Update
+- Post Upload
+- Reels Feature
+- Direct Messaging
+- Notifications
+
+6. Test Deliverables
+
+- Test Plan
+- Test Scenarios
+- Test Cases
+- Bug Report
+- Test Summary Report
+
+7. Schedule
+
+- D-1 Test Planning
+- D-2 Test Case Design
+- D-3 Test Execution
+- D-4 Bug Reporting and Retesting
+- D-5 Test Closure
+
+8. Responsible Roles
+
+- Tester :
+Prepare test cases, execute tests, and report bugs.
+
+- Test Leader :
+Review the test plan and monitor testing activities.
+
+- Developer :
+Fix the reported bugs.
+
+- Product Owner :
+Approve the feature before release.
+
