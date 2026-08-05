@@ -1,7 +1,7 @@
 1. Unit Test Scenario – Flipkart Add to Cart
 
 1. Verify that the user can add a product to the cart.
-2. Verify that the selected product is added only once after clicking **Add to Cart**.
+2. Verify that the selected product is added only once after clicking Add to Cart.
 3. Verify that the cart count increases by one after adding a product.
 4. Verify that the correct product name is displayed in the cart.
 5. Verify that the correct product price is displayed in the cart.
