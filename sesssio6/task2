@@ -1,0 +1,12 @@
+2. Integration Testing Scenario – Zomato Payment Flow
+
+1. Verify that the selected food items are successfully transferred from the cart to the order placement module.
+2. Verify that the order details are correctly sent to the payment gateway.
+3. Verify that the payment gateway accepts valid payment details.
+4. Verify that the payment is processed successfully for a valid transaction.
+5. Verify that the order is confirmed only after successful payment.
+6. Verify that the payment status is updated correctly in the order module.
+7. Verify that a payment failure displays an appropriate error message and the order is not confirmed.
+8. Verify that the user receives an order confirmation message after successful payment.
+9. Verify that the payment transaction ID is stored correctly in the system.
+10. Verify that the order history is updated after the payment is completed successfully.
