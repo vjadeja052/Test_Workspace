@@ -1,0 +1,12 @@
+4. Acceptance Testing (UAT) Scenario  Spotify Playlist Feature
+
+1. Verify that the user can create a new playlist successfully.
+2. Verify that the user can add songs to the playlist.
+3. Verify that the user can remove songs from the playlist.
+4. Verify that the user can edit the playlist name.
+5. Verify that the playlist is saved successfully after making changes.
+6. Verify that the user can play all songs from the created playlist.
+7. Verify that the playlist is available after logging out and logging in again.
+8. Verify that the user can share the playlist with other users.
+9. Verify that the playlist feature is easy to use without any confusion.
+10. Verify that the playlist feature meets the user's expectations and works without errors.
