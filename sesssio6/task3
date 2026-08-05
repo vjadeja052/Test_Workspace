@@ -1,0 +1,12 @@
+3. System Testing Scenario – BookMyShow Ticket Booking
+
+1. Verify that the user can search for a movie by name or location.
+2. Verify that the available movies and show timings are displayed correctly.
+3. Verify that the user can select a movie, theatre, and show time.
+4. Verify that the user can select available seats successfully.
+5. Verify that the booking summary displays the correct movie, seats, date, time, and ticket price.
+6. Verify that the user can complete the payment using a valid payment method.
+7. Verify that the booking is confirmed after successful payment.
+8. Verify that the booking confirmation message is displayed with the booking ID.
+9. Verify that the booked ticket is available in the user's booking history.
+10. Verify that the confirmation email or SMS is sent successfully after ticket booking.
