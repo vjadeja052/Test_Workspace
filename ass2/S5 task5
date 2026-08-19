@@ -1,0 +1,19 @@
+ Test Summary Report – Login Module
+
+1. Test Summary
+
+The Login module was tested using different positive, negative, and boundary test cases.
+
+-Total Test Cases: 10
+-Passed: 8
+-Failed: 2
+
+2. Major Issues Found
+
+- Login fails when an invalid password is entered and the proper error message is not displayed.
+- Password validation does not work correctly for some boundary values.
+
+3. Conclusion
+
+Most of the test cases passed successfully.
+Two issues were found during testing and have been reported to the development team for fixing and retesting.
