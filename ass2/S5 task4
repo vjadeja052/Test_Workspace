@@ -1,0 +1,40 @@
+ Mini Test Strategy – BookMyShow Search Functionality
+
+ Objective
+
+The objective is to verify that the search functionality works correctly and provides accurate movie search results.
+
+Test Levels
+
+1. Unit Testing
+Verify that the search function works correctly at the smallest code level.
+
+testing: Check the search function with different movie names and inputs.
+
+2. Integration Testing
+Verify that the search module works correctly with the movie database.
+
+testing: Check whether the search request gets the correct movie data from the database.
+
+3. System Testing
+Verify the complete search process from entering a movie name to displaying the search results.
+
+testing: Search for a movie and verify that the correct results are displayed.
+
+ Test Types
+
+1. Functional Testing
+- Verify that the user can search for a movie.
+- Verify that correct movie results are displayed.
+- Verify that an appropriate message is displayed when no movie is found.
+
+
+2. Non-Functional Testing
+- Verify that search results are displayed within an acceptable time.
+- Verify that the search feature works properly on different screen sizes.
+
+
+ Conclusion
+
+The search functionality will be tested using manual testing and Selenium to verify its functionality,
+integration, system behavior, and basic non-functional requirements.
