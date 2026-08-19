@@ -1,40 +1,59 @@
- Mini Test Strategy – BookMyShow Search Functionality
+ Login Test Cases for BookMyShow
 
- Objective
+Test Case 1 – Positive Scenario
 
-The objective is to verify that the search functionality works correctly and provides accurate movie search results.
+Test Case ID: 01
 
-Test Levels
+Test Scenario:  
+Verify that the user can login successfully with valid credentials.
 
-1. Unit Testing
-Verify that the search function works correctly at the smallest code level.
+Test Steps:
+1. Open the BookMyShow application.
+2. Enter a valid email or mobile number.
+3. Enter a valid password or OTP.
+4. Click on the Login button.
 
-testing: Check the search function with different movie names and inputs.
+Expected Result:  
+The user should be logged in successfully and the home page should be displayed.
 
-2. Integration Testing
-Verify that the search module works correctly with the movie database.
+Actual Result: 
+Not Executed
 
-testing: Check whether the search request gets the correct movie data from the database.
+Test Case 2 – Negative Scenario
 
-3. System Testing
-Verify the complete search process from entering a movie name to displaying the search results.
+Test Case ID: 02
 
-testing: Search for a movie and verify that the correct results are displayed.
+Test Scenario:  
+Verify that the user cannot login with invalid credentials.
 
- Test Types
+Test Steps:
+1. Open the BookMyShow application.
+2. Enter a valid email or mobile number.
+3. Enter an invalid password or OTP.
+4. Click on the Login button.
 
-1. Functional Testing
-- Verify that the user can search for a movie.
-- Verify that correct movie results are displayed.
-- Verify that an appropriate message is displayed when no movie is found.
+Expected Result:  
+The user should not be logged in and an appropriate error message should be displayed.
+
+Actual Result:  
+Not Executed
 
 
-2. Non-Functional Testing
-- Verify that search results are displayed within an acceptable time.
-- Verify that the search feature works properly on different screen sizes.
+Test Case 3 – Boundary Scenario
 
+Test Case ID: 03
 
- Conclusion
+Test Scenario:  
+Verify that the login accepts a password with the minimum allowed length.
 
-The search functionality will be tested using manual testing and Selenium to verify its functionality,
-integration, system behavior, and basic non-functional requirements.
+Test Steps:
+1. Open the BookMyShow application.
+2. Enter a valid email or mobile number.
+3. Enter a password with the minimum allowed length.
+4. Click on the Login button.
+
+Expected Result:  
+The system should accept the password if it meets the minimum length requirement and allow the user to login.
+
+Actual Result:  
+Not Executed
