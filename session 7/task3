@@ -1,0 +1,52 @@
+Test Plan vs Test Strategy
+
+ Test Plan
+
+ 1. Purpose
+
+A Test Plan describes what will be tested, who will test it, and when it will be tested.
+
+Example:  
+For the Flipkart Login feature, the Test Plan defines the login test cases, testing schedule, resources, and responsible testers.
+
+ 2. Scope
+
+A Test Plan usually focuses on a specific feature or project.
+
+Example:  
+A Test Plan can be prepared specifically for the Flipkart Add to Cart feature.
+
+ 3. Details
+
+A Test Plan contains detailed information such as test activities, schedule, resources, and responsibilities.
+
+Example:  
+For the Flipkart Payment feature, the Tester will execute test cases and report bugs during the planned testing period.
+
+ Test Strategy
+
+ 1. Purpose
+
+A Test Strategy describes the overall approach and methods that will be used for testing.
+
+Example:
+For Flipkart, the Test Strategy can include Functional Testing, Integration Testing, System Testing, and Regression Testing.
+
+ 2. Scope
+
+A Test Strategy has a broader scope and defines the overall testing approach for the application.
+
+Example: 
+The Flipkart Test Strategy can cover Login, Search, Add to Cart, Payment, and Order Placement.
+
+ 3. Testing method
+
+A Test Strategy defines how testing will be performed and which testing methods will be followed.
+
+Example:  
+For Flipkart, the strategy can include Functional Testing, Integration Testing, System Testing, and Regression Testing.
+
+ Conclusion
+
+A Test Plan is a detailed document that focuses on a specific feature or project.
+A Test Strategy provides the overall approach and direction for testing the application.
