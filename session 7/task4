@@ -1,0 +1,29 @@
+# Risks, Assumptions and Dependencies – Payment Feature
+
+## Risks
+
+1. Payment Failure
+–Payment may fail.
+
+2. Duplicate Payment
+– User may be charged two time .
+
+ Assumptions
+
+1. Payment Gateway is Available 
+– We assume the payment gateway is working.
+
+2. Test Payment Details are Available 
+– We assume test cards or UPI are available.
+
+Dependencies
+
+1. Payment Gateway 
+– Testing depends on the payment gateway.
+
+2. Order Module
+– Payment depends on the order being created correctly.
+
+ Conclusion
+
+Risks are possible problems, assumptions are things we expect to be available, and dependencies are things required for testing.
