@@ -1,0 +1,51 @@
+ Requirement to Test Case Mapping – Instagram Signup
+
+ 1. Requirement ID: R1
+
+Requirement Description:  
+The user must be able to create a new account using a valid email or mobile number.
+
+Test Case ID: TC01
+
+Test Case Description:  
+Verify that the user can create a new account using a valid email or mobile number.
+
+ 2. Requirement ID: R2
+
+Requirement Description: 
+The system must allow the user to enter a username and password during signup.
+
+Test Case ID: TC02
+
+Test Case Description:  
+Verify that the user can enter a valid username and password during signup.
+
+ 3. Requirement ID: R3
+
+Requirement Description:  
+The system must show an error message if the email or mobile number is already registered.
+
+Test Case ID: TC03
+
+Test Case Description:  
+Verify that an error message is displayed when the user enters an already registered email or mobile number.
+
+ 4. Requirement ID: R4
+
+Requirement Description:  
+The system must verify the user's email or mobile number using an OTP or verification method.
+
+Test Case ID: TC04
+
+Test Case Description:  
+Verify that the user can verify the email or mobile number using the received OTP or verification method.
+
+ 5. Requirement ID: R5
+
+Requirement Description:
+The system must create the Instagram account successfully after all required details are entered correctly.
+
+Test Case ID: TC05
+
+Test Case Description:  
+Verify that the Instagram account is created successfully after entering all required details correctly.
