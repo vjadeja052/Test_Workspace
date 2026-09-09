@@ -1,0 +1,13 @@
+ Forward Traceability
+
+1. It traces a requirement - test case.
+2. It checks whether every requirement is covered by testing.
+3. Example: Requirement:User should be able to log in with valid username and password- Login Test Case.
+
+ Backward Traceability
+
+1. It traces a test case - requirement.
+2. It checks whether each test case is linked to a valid requirement.
+3. Example: Login Test Case - User should be able to log in with valid username and password requirement.
+
+
