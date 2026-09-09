@@ -1,0 +1,31 @@
+ Task: Link Defects with Test Cases
+
+1. R1 → TC01
+   - Requirement: User must be able to create a new account using a valid email or mobile number.
+   - Test Case: Verify that a user can sign up with a valid email/mobile number.
+   - Defect ID: D01
+   - Defect: Signup button is not enabled after entering valid details.
+
+2. R2 → TC02
+   - Requirement: System must allow the user to enter a username and password during signup.
+   - Test Case: Verify that the user can enter a valid username and password.
+   - Defect ID: -
+   - Defect: No defect found.
+
+3. R3 → TC03
+   - Requirement: System must show an error if the email or mobile number is already registered.
+   - Test Case: Verify that an error message is displayed for an already registered email or mobile number.
+   - Defect ID: -
+   - Defect: No defect found.
+
+4. R4 → TC04
+   - Requirement: System must verify the email/mobile number using OTP.
+   - Test Case: Verify that the user receives and can enter the OTP.
+   - Defect ID: D02
+   - Defect: OTP is not received by the user.
+
+5. R5 → TC05
+   - Requirement: System must create the Instagram account after all required details are entered correctly.
+   - Test Case: Verify that the account is created successfully with valid details.
+   - Defect ID: -
+   - Defect: No defect found.
