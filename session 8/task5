@@ -1,0 +1,45 @@
+ Bi-Directional RTM for Login Feature
+Requirement 1 (R1)
+
+Requirement: User should be able to log in with a valid mobile number and password.
+
+TC01: Verify login with valid mobile number and password.
+
+   Forward: R1 - TC01
+   Backward: TC01 - R1
+
+TC02: Verify login with an invalid password.
+
+   Forward: R1 - TC02
+   Backward: TC02 - R1
+
+Requirement 2 (R2)
+
+Requirement: System should display an error message for invalid login details.
+
+ TC03: Verify error message for invalid mobile number or password.
+
+   Forward: R2 - TC03
+ Backward: TC03 - R2
+
+ TC04: Verify error message when login fields are left blank.
+
+   Forward: R2 - TC04
+   Backward: TC04 - R2
+
+ Requirement 3 (R3)
+
+Requirement: User should be redirected to the home page after successful login.
+
+ TC05: Verify that the user is redirected to the home page after successful login.
+
+   Forward: R3 - TC05
+   Backward: TC05 - R3
+
+ Traceability Summary
+
+1. Forward Traceability: Requirement - Test Case
+2. Backward Traceability: Test Case - Requirement
+3. Bi-Directional Traceability: Requirement <-> Test Case
+4. All 3 requirements are linked with the required 5 test cases.
+5. This helps ensure that every requirement is covered by testing and every test case is linked to a requirement.
