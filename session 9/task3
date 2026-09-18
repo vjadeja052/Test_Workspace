@@ -1,0 +1,64 @@
+Search Restaurant 
+Detailed Test Cases
+
+Scenario:
+Verify that the user can search for a restaurant using a valid restaurant name.
+
+TC01 - Search with Full Restaurant Name
+
+- Test Case ID: TC01
+- Steps:
+  1. Open the Zomato-like app.
+  2. Open the Search Restaurant option.
+  3. Enter "Domino's" in the search bar.
+  4. Click on the Search option.
+- Test Data: Domino's
+- Expected Result: Domino's restaurant results must be displayed.
+- Actual Result:
+
+
+TC02 - Search with Another Valid Restaurant Name
+
+- Test Case ID: TC02
+- Steps:
+  1. Open the Search Restaurant option.
+  2. Enter "Pizza Hut" in the search bar.
+  3. Click on the Search option.
+- Test Data: Pizza Hut
+- Expected Result: Pizza Hut restaurant results must be displayed.
+- Actual Result:
+
+
+TC03 - Search with Partial Restaurant Name
+
+- Test Case ID: TC03
+- Steps:
+  1. Open the Search Restaurant option.
+  2. Enter "Pizza" in the search bar.
+  3. Click on the Search option.
+- Test Data: Pizza
+- Expected Result: Restaurants related to "Pizza" must be displayed.
+- Actual Result:
+
+
+TC04 - Search Using Different Letter Case
+
+- Test Case ID: TC04
+- Steps:
+  1. Open the Search Restaurant option.
+  2. Enter "DOMINOS" in the search bar.
+  3. Click on the Search option.
+- Test Data: DOMINOS
+- Expected Result: Relevant Domino's restaurant results must be displayed regardless of letter case.
+- Actual Result:
+
+TC05 - Search with Leading and Trailing Spaces
+
+- Test Case ID: TC05
+- Steps:
+  1. Open the Search Restaurant option.
+  2. Enter "  Domino's  " in the search bar.
+  3. Click on the Search option.
+- Test Data: "  Domino's  "
+- Expected Result: The system must handle extra spaces and display  Domino's restaurant results.
+- Actual Result:
