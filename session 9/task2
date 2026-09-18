@@ -1,0 +1,27 @@
+~ Search Restaurant 
+
+Test Scenarios :-
+
+Functional Test Scenarios:-
+
+1. Verify that the user can search for a restaurant using a valid restaurant name.
+
+2. Verify that the search displays relevant restaurants when the user enters a partial restaurant name.
+
+3. Verify that the system displays "No results found" when the user searches for a restaurant that does not exist.
+
+4. Verify that the user can search restaurants using different food categary such as Pizza, Chinese, or Indian.
+
+5. Verify that the user can apply filters such as rating, price, and food category and get the correct results.
+
+6. Verify that the search results are updated correctly when the user removes or changes the applied filters.
+
+Non-Functional Test Scenarios :-
+
+7. Verify that search results are displayed within an acceptable response time after entering a search query.
+
+8. Verify that the search feature works properly on different screen sizes and devices.
+
+9. Verify that the search screen and results are displayed properly without UI overlapping or broken elements.
+
+10. Verify that the app does not freeze or crash when the user performs multiple searches continuously.
