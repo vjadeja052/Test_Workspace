@@ -1,0 +1,13 @@
+Instagram Signup 
+
+Test Scenarios :-
+
+1. Verify that a user can create an account using a valid email or mobile number.
+
+2. Verify that the user can enter a valid username and password during signup.
+
+3. Verify that the system displays an error when the user enters an already registered email or mobile number.
+
+4. Verify that the user receives and can verify the OTP during signup.
+
+5. Verify that the Instagram account is created successfully after entering all valid required details.
