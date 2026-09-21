@@ -1,0 +1,30 @@
+ Peer Review of Food Delivery App SRS
+SRS Reviewed:
+Zomato - Software Requirements Specification
+
+ Unclear or Ambiguous Requirements:
+
+1. Requirement: "All the users, restaurants management, wish-master are comfortable with the operating system."
+   - Issue: The term "comfortable" is unclear and cannot be measured.
+   - Suggestion: Specify the supported operating systems and versions.
+
+2. Requirement: "Software will never crash."
+   - Issue: This is not a measurable requirement because software cannot realistically be guaranteed to never crash.
+   - Suggestion: Define a required availability percentage and recovery time after a failure.
+
+3. Requirement: "The system must have to be operable even on slow internet connection."
+   - Issue: "Slow internet connection" is not clearly defined.
+   - Suggestion: Specify the minimum supported internet speed or network condition.
+
+4. Requirement: "The user interface will be user friendly."
+   - Issue: "User friendly" is subjective and does not define measurable usability criteria.
+   - Suggestion: Define specific usability requirements such as easy navigation, readable text, and maximum number of steps for common tasks.
+
+5. Requirement: "This software will help the user to connect to the restaurant."
+   - Issue: The word "connect" is ambiguous because it does not explain what action the user can perform.
+   - Suggestion: Clearly specify whether the user can search, call, chat with, or place an order with the restaurant.
+
+ Conclusion
+
+The peer review found 5 requirements that need more clarity and measurable details.
+Clear requirements help developers understand what to build and help testers create accurate test cases.
