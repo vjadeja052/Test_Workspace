@@ -1,0 +1,23 @@
+Login with OTP - Manual Test Script
+
+Objective :-
+
+To verify that the user can log in successfully using a valid OTP and that the system rejects an invalid OTP.
+
+Test Steps :-
+
+1. Open the Paytm-style app.
+2. Open the Login page.
+3. Enter a valid registered mobile number.
+4. Click on the **Send OTP** button.
+5. Verify that an OTP is sent to the registered mobile number.
+6. Enter the received **valid OTP** in the OTP field.
+7. Click on the **Login/Verify** button.
+8. Verify that the user is logged in successfully and redirected to the home page.
+9. Log out from the application.
+10. Open the Login page again and enter the same registered mobile number.
+11. Click on the **Send OTP** button.
+12. Enter an **invalid OTP** in the OTP field.
+13. Click on the **Login/Verify** button.
+14. Verify that the system does not allow the user to log in.
+15. Verify that an appropriate error message such as "Invalid OTP" is displayed.
