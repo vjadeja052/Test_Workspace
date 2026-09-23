@@ -1,0 +1,33 @@
+Test Case Walkthrough :
+Add to Cart Test Case:
+
+Scenario:
+Verify that a user can add a product to the cart.
+
+Test case ID :01 
+
+Funtionality ID: 402
+
+Test Summary :
+With Login check product is add or not
+
+Preconditions:
+Internet, Browser & Website in working condition
+
+Test Steps :
+
+1. Open the swaglab application.
+2. Log in with a valid account.
+3. Search for a product, such as a mobile phone.
+4. Open the product details page.
+5. Click on the Add to Cart button.
+6. Open the Cart and check the selected product.
+
+Expected Result:
+With Login product should be added
+
+Actual Result :
+As per expected result
+
+Status :
+Pass
