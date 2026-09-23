@@ -1,0 +1,19 @@
+RDBMS vs NoSQL
+
+1. Data Structure
+
+RDBMS (MySQL): Stores data in tables with rows and columns.
+NoSQL (MongoDB): Stores data mainly in documents.
+Example: Instagram user information can be stored in MySQL tables or MongoDB documents.
+
+2. Schema
+
+RDBMS (MySQL): Uses a fixed schema, so the structure of the table is defined in advance.
+NoSQL (MongoDB): Uses a flexible schema, so documents can have different fields.
+Example: WhatsApp user/profile data can be stored flexibly in a NoSQL database.
+
+3. Relationships
+
+RDBMS (MySQL): Uses relationships between tables to connect related data.
+NoSQL (MongoDB): Can store related data together in a document.
+Example: Instagram users, posts, and comments can be connected using relationships in MySQL, while MongoDB can store related information in documents.
