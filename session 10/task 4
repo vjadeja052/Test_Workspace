@@ -1,0 +1,24 @@
+ Static Testing Issues in Movie Booking Test Cases :
+
+Static testing can find these 4 issues by reviewing the test case document without running the application:
+
+1. Missing Steps
+
+   - A test case says "Book a movie" but does not explain how to select the movie or seats.
+   - The missing steps can be found during document review.
+
+2. Missing Test Data
+
+   - A test case says Search for a movie but does not mention which movie to search.
+   - The reviewer can ask for specific test data, such as Search for Hanuman ansh.
+
+3. Missing Expected Result
+
+   - A test case says Click Book Ticket but does not say what should happen.
+   - The expected result should say that the booking confirmation must be displayed.
+
+4. Unclear Test Step
+
+   - A step says Select a suitable seat.
+   - Suitable is unclear because it does not explain which seat to select.
+   - The step must be written clearly.
