@@ -1,0 +1,18 @@
+Informal Review of Login Test Cases
+
+there are three login test case :-
+
+1. Add wrong password :
+
+   - Test with a correct username and wrong password.
+   - The system must show an error message.
+
+2. Add blank field :
+
+   - Test login with a blank username or password.
+   - The system must show a required field message.
+
+3. expected results :-
+
+   - Write exactly what should happen after each test.
+   - For example : The user must be logged in successfully or The system must display an error message.
