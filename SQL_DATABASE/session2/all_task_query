@@ -1,0 +1,23 @@
+Task 1
+SELECT username, email
+FROM users
+WHERE city = 'Ahmedabad';
+
+Task 2
+SELECT *FROM users
+WHERE username LIKE 'a%'
+   OR username LIKE 'A%';
+
+Task 3
+SELECT DISTINCT city FROM users
+WHERE age > 25;
+
+Task 4
+SELECT username, signup_date FROM users
+ORDER BY signup_date DESC
+LIMIT 5;
+
+Task 5
+SELECT username, city, age FROM users
+WHERE age BETWEEN 18 AND 22
+AND city IN ('Surat', 'Vadodara');
