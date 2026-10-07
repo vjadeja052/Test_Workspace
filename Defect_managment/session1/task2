@@ -1,0 +1,28 @@
+ Severity and Priority
+
+Bug 1: App crashes when a wrong OTP is entered on the login screen
+Severity: Critical 
+Priority: High
+
+Bug 2: Continue button is enabled when mobile number field is empty
+Severity: Minor 
+Priority: Normal
+
+Bug 3: App accepts 9-digit mobile number on login screen
+Severity: Major 
+Priority: High
+
+Bug 4: Resend OTP link stays disabled after timer ends
+Severity: Major 
+Priority: Normal
+
+Bug 5: App name spelling mistake on login screen header
+Severity: Trivial 
+Priority: High
+
+Bug 5, where severity and priority are different :
+
+The spelling mistake does not break any functionality, so the severity is Trivial. 
+But the app name is the brand identity on the first screen every user sees. 
+A wrong spelling looks unprofessional and can make users doubt that the app is genuine, which matters a lot for a payments app. 
+It is also a very quick fix, so the priority is High.
