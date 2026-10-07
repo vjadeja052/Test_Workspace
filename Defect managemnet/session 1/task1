@@ -1,0 +1,11 @@
+Task 1: Defect Statements
+
+Bug 1: App crashes when a wrong OTP is entered on the login screen
+
+Bug 2: Continue button is enabled when mobile number field is empty
+
+Bug 3: App accepts 9-digit mobile number on login screen
+
+Bug 4: Resend OTP link stays disabled after timer ends
+
+Bug 5: App name spelling mistake on login screen header
