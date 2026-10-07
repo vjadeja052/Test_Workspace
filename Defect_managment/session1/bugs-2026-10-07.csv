@@ -1,0 +1,6 @@
+bug_id,"bug_severity","priority","op_sys","assigned_to","bug_status","resolution","short_desc"
+1,"critical","Highest","Windows","tops@tops-int.com","NEW","---","App crashes when a wrong OTP is entered on the login screen"
+3,"major","High","Windows","tops@tops-int.com","NEW","---","App accepts 9-digit mobile number on login screen"
+4,"major","High","Windows","tops@tops-int.com","NEW","---","Resend OTP link stays disabled after timer ends"
+2,"minor","Normal","Windows","tops@tops-int.com","NEW","---","Continue button is enabled when mobile number field is empty"
+5,"normal","Low","Windows","tops@tops-int.com","NEW","---","App name spelling mistake on login screen header"
