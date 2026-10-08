@@ -1,0 +1,53 @@
+Task 3: Two More Defects Logged in Bugzilla
+
+Defect 1 PhonePe
+
+Bug ID: 7
+
+Module: UPI Payment
+
+Build  Version: 5.2.1
+
+Severity: Critical
+
+Priority: High
+
+Summary: PhonePe: Money deducted but payment shows failed after network drop
+
+Steps :
+
+1. Open PhonePe and select "Pay to contact".
+2. Enter the amount (Rs. 500) and the UPI PIN.
+3. Turn off mobile data right after tapping Pay.
+
+Expected Result : Payment status is shown correctly, and a failed payment does not debit the account.
+
+Actual Result : The app shows "Payment failed" but Rs. 500 is deducted from the account.
+
+Why this Severity and Priority : Money is lost and users may pay twice, so the defect is Critical and must be fixed urgently.
+
+ Defect 2: Flipkart
+
+Bug ID : 8
+
+Module: Cart
+
+Build  Version : 7.10
+
+Severity : Major
+
+Priority : High
+
+Summary : Flipkart: Wrong size added to cart when size M is selected
+
+Steps :
+
+1. Open a T-shirt product page.
+2. Select size M.
+3. Tap "Add to cart" and open the cart.
+
+Expected Result : The cart shows size M.
+
+Actual Result :The cart shows size S.
+
+Why this Severity and Priority : Users receive the wrong product, which causes returns and complaints, so it should be fixed soon.
