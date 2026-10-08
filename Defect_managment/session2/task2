@@ -1,0 +1,37 @@
+Task 2: Bug Logged in Bugzilla
+
+**App:** Zomato
+
+**Bug ID:** (apna Bug ID likho)
+
+**Product / Component:** TestProduct / TestComponent
+
+**Module:** Checkout
+
+Build  Version: 1.0.0
+
+Severity : Major
+
+Priority : Normal
+
+Summary
+
+Zomato : Applied coupon is removed when delivery address is changed at checkout
+
+Steps :
+
+1. Add items to cart and open the checkout screen.
+2. Apply a valid coupon (WELCOME50).
+3. Tap "Change address" and select another saved address.
+4. Return to the checkout screen.
+
+Expected Result
+
+The coupon should stay applied after the address is changed.
+
+Actual Result
+
+The coupon is removed and the bill amount increases from Rs. 320 to Rs. 370.
+
+Screenshot
+uploded .
