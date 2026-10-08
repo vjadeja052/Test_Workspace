@@ -1,0 +1,43 @@
+Defect : Zomato: Applied coupon is removed when delivery address is changed at checkout
+
+Bug ID :6
+
+Product : TestProduct
+
+Severity - Priority : Major - Normal
+
+
+
+NEW → ASSIGNED → FIXED → RETEST → VERIFIED → CLOSED
+
+NEW → ASSIGNED
+
+Action : I selected "Accept bug (change status to ASSIGNED)" and clicked Commit.
+Comment added : Bug reviewed and accepted. Assigned to the development team for investigation.
+
+ASSIGNED → FIXED
+
+Action : I selected "Resolve bug, changing resolution to FIXED" and clicked Commit.
+Comment added : Issue fixed by the developer. The applied coupon is now kept when the delivery address is changed.
+                Fix is available in the new build for retesting.
+
+RETEST
+
+Action : I added a comment while the bug stayed in RESOLVED FIXED.
+Comment added : Retesting started on the new build. I applied the coupon WELCOME50, changed the delivery address and checked the bill.
+                The coupon stayed applied and the bill amount was correct. The issue was no longer reproducible.
+
+VERIFIED
+
+Action : I selected "Mark bug as VERIFIED" and clicked Commit.
+Comment added : Retest passed. The fix was verified and the defect is working as expected.
+
+CLOSED
+
+Action : I selected "Mark bug as CLOSED" and clicked Commit.
+Comment added : Fix verified and no further issues were found. Closing the defect.
+
+
+
+Bugzilla does not have a separate "Retest" status. So, I recorded the retest stage by adding a comment while the bug stayed in RESOLVED FIXED. 
+After the retest passed, I moved the bug to VERIFIED and then CLOSED.
