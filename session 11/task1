@@ -1,0 +1,42 @@
+ Work Breakdown Structure (WBS) for Instagram Login Feature
+
+ 1. Introduction
+
+WBS stands for Work Breakdown Structure. It is a method of dividing a large task into smaller and manageable activities.
+
+ I have selected the Login feature of Instagram. The purpose is to break down the testing work into different activities to ensure that the
+ login feature works correctly.
+
+2. Work Breakdown Structure (WBS)
+
+ 1.0 Instagram Login Testing :
+ 
+1.1 Requirement Analysis: 
+- Understand the login requirements.
+- Identify the required fields, such as username , email and password.
+- Understand the expected login behavior.
+
+1.2 Test Case Preparation
+- Prepare test cases for the login feature.
+- Include valid and invalid login scenarios.
+- Define expected results for each test case.
+
+1.3 Functional Testing
+- Verify login with valid credentials.
+- Check whether the user can log in successfully.
+- Verify that invalid credentials do not allow access.
+
+1.4 Security Testing
+- Verify that users cannot log in with incorrect credentials.
+- Check whether the password is hidden while typing.
+- Verify that protected account pages cannot be accessed without proper authentication.
+
+1.5 Cross-Browser and Device Testing
+- Test the login feature on different browsers.
+- Check the login screen on mobile and desktop devices.
+- Verify that all fields and buttons work properly on different screen sizes.
+
+1.6 Defect Reporting
+- Record any defects found during testing.
+- Include steps to reproduce the defect and the expected and actual results.
+- Report the defects to the development team.
