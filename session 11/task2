@@ -1,0 +1,56 @@
+Test Effort Estimation for WhatsApp Send Message Feature
+
+ 1. Main Testing Activities and Estimated Hours
+
+ 1. Requirement Analysis — 1 Hour
+- Understand the Send Message feature requirements.
+- Identify the expected behavior of sending messages.
+
+ 2. Test Planning — 1 Hour
+- Decide the testing scope and approach.
+- Identify the resources and testing activities required.
+
+ 3. Test Case Design — 3 Hours
+- Prepare test cases for sending text messages.
+- Test sending messages to individual and group chats.
+- Include positive and negative test scenarios.
+
+ 4. Test Data Preparation — 1 Hour
+- Prepare test accounts and sample messages.
+- Arrange individual chats and group chats for testing.
+
+ 5. Test Environment Setup — 1 Hour
+- Set up the required mobile devices and WhatsApp test accounts.
+- Check the internet connection and application version.
+
+ 6. Test Execution — 4 Hours
+- Verify that messages are sent successfully.
+- Check message delivery indicators.
+- Test sending messages with a poor or disconnected internet connection.
+- Verify that messages appear correctly in the chat.
+
+ 7. Defect Reporting — 1 Hour
+- Record defects found during testing.
+- Write steps to reproduce each defect.
+- Include expected and actual results.
+
+ 8. Retesting — 2 Hours
+- Retest defects after developers fix them.
+- Verify that the reported issues are resolved.
+
+ 9. Regression Testing — 2 Hours
+- Check that existing messaging functionality still works after changes.
+- Verify that sending and receiving messages have not been affected by bug fixes.
+
+ 10. Test Summary and Reporting — 1 Hour
+- Prepare the final testing summary.
+- Record passed and failed test cases.
+- Report the overall testing status.
+
+2. Total Effort Calculation
+
+Total Testing Effort = Sum of Estimated Hours
+
+1 + 1 + 3 + 1 + 1 + 4 + 1 + 2 + 2 + 1 = 17 Hours
+
+The actual effort may vary depending on the number of defects found, the complexity of the feature, and the testing environment.
