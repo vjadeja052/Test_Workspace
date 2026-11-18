@@ -1,0 +1,28 @@
+Q5. Cross-Browser Testing and Responsive Testing
+
+1. Cross-Browser Testing:
+
+Cross-browser testing checks whether the application works correctly across different web browsers.
+
+Checks to perform:
+- Open the food delivery portal in Chrome, Firefox, and Edge.
+- Verify whether the Track Order map widget is displayed correctly in all browsers.
+- Check map loading, functionality, layout, and browser console errors.
+
+2. Responsive Testing:
+
+Responsive testing checks whether the application layout adjusts properly to different screen sizes and resolutions.
+
+Checks to perform:
+- Test the checkout page on mobile, tablet, and desktop screen sizes.
+- Check the layout at a 768px tablet viewport.
+- Verify that buttons, text, forms, and payment options are visible and usable without unwanted horizontal scrolling.
+
+3. Tools and Methods:
+
+- Chrome Developer Tools: Use Device Toolbar to test different screen sizes and resolutions.
+- BrowserStack: Use it to test the application on different browsers and devices.
+- Screenshots: Capture screenshots of both issues as evidence.
+- Browser Console: Check JavaScript errors and other loading issues.
+
+These tools help testers reproduce, investigate, and document the defects properly.
