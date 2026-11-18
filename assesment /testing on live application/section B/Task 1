@@ -1,0 +1,69 @@
+Section B – Practical Testing Tasks
+
+ Task 1: Test Plan & Objectives – Login Module
+
+ 1. Test Objectives
+
+The main objective is to verify that the Login module of the food delivery web application works correctly, securely, and smoothly.
+
+Objective 1 – Requirement Analysis
+- Verify that all login requirements are clearly understood.
+- Confirm that all required login scenarios are identified.
+
+Objective 2 – Test Planning
+- Prepare a test plan covering positive and negative login scenarios.
+- Identify the testing scope, resources, and risks.
+
+Objective 3 – Test Case Development
+- Prepare at least 15 test cases covering valid login, invalid login, empty fields, and password validation.
+
+Objective 4 – Test Execution
+- Execute all 15 planned test cases.
+- Verify that valid users can log in and invalid users receive proper error messages.
+
+2. Testing Scope
+
+In-Scope:
+
+1. Verify login using a valid email and password.
+2. Verify login with an incorrect email or password.
+3. Verify login with empty email and password fields.
+4. Verify password visibility and hide/show functionality.
+5. Verify the Forgot Password link.
+
+Out-of-Scope:
+
+1. New user registration functionality.
+2. Restaurant browsing and food ordering functionality.
+3. Payment gateway and online payment functionality.
+4. Order tracking functionality.
+
+3. Entry Criteria
+
+1. Login requirements and design should be available and approved.
+2. The login module build should be available, and the test environment should be ready.
+
+4. Exit Criteria
+
+1. All planned login test cases should be executed.
+2. All critical and high-priority defects should be fixed and retested.
+3. Test results should be documented and shared with the team.
+
+5. Risks 
+
+Risk 1: Test Environment Failure
+- Problem: The testing environment may not work properly.
+- Mitigation: Check the test environment before starting test execution.
+
+Risk 2: Invalid Test Data
+- Problem: Incorrect or unavailable test user credentials may affect testing.
+- Mitigation: Prepare valid and invalid test credentials before execution.
+
+Risk 3: Security Issues
+- Problem: Login functionality may allow unauthorized users to access accounts.
+- Mitigation: Test invalid credentials, password handling, and unauthorized access scenarios.
+
+Conclusion
+
+The test plan helps ensure that the Login module works correctly and securely.
+It also helps testers identify defects early and complete testing within the planned time.
