@@ -1,0 +1,21 @@
+Q3. Selenium IDE Automation
+
+Why Search and Filter Testing is a Good Candidate for Automation
+
+Search and Filter functionality is a good candidate for Selenium IDE automation because:
+
+1. Repeated Testing: The same search and filter test cases are executed in every sprint. Automation helps avoid repeating the same manual steps.
+
+2. Time Saving: Manual regression testing takes 4 hours per cycle and runs twice per sprint. Automation can reduce the time required for repeated test execution.
+
+3. Regression Testing: Automated test cases can be reused after every new release to check whether existing search and filter functionality is still working correctly.
+
+Two Limitations of Selenium IDE
+
+1. Limited Customization: Selenium IDE is mainly record-and-playback based. It is less flexible for complex test scenarios and advanced programming logic.
+
+2. Dynamic Applications: Handling complex dynamic elements and advanced synchronization can be difficult compared to Selenium WebDriver.
+
+Conclusion
+
+Selenium IDE is useful for automating repeated and simple regression test cases. However, complex testing scenarios may require more advanced automation tools.
