@@ -1,0 +1,34 @@
+Q6. SQL Data Verification and Data Validation
+
+1. SQL Data Verification:
+
+First, I will collect the 5 test order IDs and compare the delivery addresses entered in the UI with the addresses stored in the database.
+
+I will use the following MySQL query:
+
+sql
+
+SELECT
+    order_id,
+    customer_id,
+    delivery_address
+FROM orders
+WHERE order_id IN (101, 102, 103, 104, 105);
+
+
+Expected Result:
+
+The database should display the correct delivery address for all 5 test orders, matching the addresses entered by users in the UI.
+
+2. Difference between Data Verification and Data Validation:
+
+- Data Verification: It checks whether the data is correctly stored in the database. 
+                     For example, checking whether the delivery address entered by the user is saved correctly in the orders table.
+
+- Data Validation: It checks whether the stored data meets the required conditions and matches the user's actual input.
+                   For example, checking whether the delivery address in the database is the same as the address displayed in the order confirmation.
+
+3. Conclusion:
+
+SQL queries help testers verify backend data and identify mismatches between the UI and database. 
+If the delivery address is incorrect, I will report it as a defect with proper evidence.
