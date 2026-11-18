@@ -1,0 +1,208 @@
+ Task 2: EP & BVA Test Cases – Delivery Address Form
+
+1. Objective
+
+The objective of this task is to test the Pincode and Phone Number fields of the delivery address form using Equivalence Partitioning (EP)
+and Boundary Value Analysis (BVA).
+
+- Pincode must contain exactly 6 numeric digits.
+- Phone Number must contain exactly 10 numeric digits.
+
+ 2. Equivalence Partitioning (EP)
+
+A. Pincode Field:
+Valid Partition:
+- Exactly 6 numeric digits.
+- Example: `360001`
+
+Invalid Partitions:
+- Less than 6 digits: `36001`
+- More than 6 digits: `3600012`
+- Alphabetic characters: `ABCDEF`
+- Alphanumeric characters: `3600AB`
+- Special characters: `360@01`
+- Empty input: Blank.
+
+B. Phone Number Field
+
+Valid Partition:
+- Exactly 10 numeric digits.
+- Example: `9876543210`
+
+Invalid Partitions:
+- Less than 10 digits: `987654321`
+- More than 10 digits: `98765432101`
+- Alphabetic characters: `ABCDEFGHIJ`
+- Alphanumeric characters: `98765ABCDE`
+- Special characters: `98765@3210`
+- Empty input: Blank.
+
+ 3. Boundary Value Analysis (BVA)
+
+A. Pincode Field
+
+- 5 digits – Invalid .
+- 6 digits – Valid .
+- 7 digits – Invalid .
+
+B. Phone Number Field
+
+- 9 digits – Invalid .
+- 10 digits – Valid .
+- 11 digits – Invalid .
+
+4. Test Cases
+
+ A. Pincode Test Cases
+
+TC_01: Verify Pincode with Valid 6 Digits
+
+- Technique: EP
+- Test Type: Positive
+- Description: Verify that the system accepts a valid 6-digit numeric pincode.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `360001` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should accept the pincode.
+- Pass/Fail: Not Executed
+
+TC_02: Verify Pincode with Less Than 6 Digits
+
+- Technique: BVA
+- Test Type: Negative
+- Description: Verify that the system rejects a pincode containing 5 digits.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `36001` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should display a validation message.
+- Pass/Fail: Not Executed
+
+TC_03: Verify Pincode with Exactly 6 Digits
+
+- Technique: BVA
+- Test Type: Positive
+- Description: Verify the minimum and maximum allowed pincode length.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `360001` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should accept the 6-digit pincode.
+- Pass/Fail: Not Executed
+
+TC_04: Verify Pincode with More Than 6 Digits
+
+- Technique: BVA
+- Test Type: Negative
+- Description: Verify that the system rejects a pincode containing 7 digits.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `3600012` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should reject the pincode and display a validation message.
+- Pass/Fail: Not Executed
+
+TC_05: Verify Pincode with Alphabetic Characters
+
+- Technique: EP
+- Test Type: Negative
+- Description: Verify that the Pincode field does not accept alphabetic characters.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `ABCDEF` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should reject alphabetic characters.
+- Pass/Fail: Not Executed
+
+TC_06: Verify Pincode with Alphanumeric Characters
+
+- Technique: EP
+- Test Type: Negative
+- Description: Verify that the Pincode field does not accept letters and numbers together.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `3600AB` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should reject the input.
+- Pass/Fail: Not Executed
+
+TC_07: Verify Pincode with Special Characters
+
+- Technique: EP
+- Test Type: Negative
+- Description: Verify that the Pincode field does not accept special characters.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `360@01` in the Pincode field.
+  3. Submit the form.
+- Expected Result: System should reject special characters.
+- Pass/Fail: Not Executed
+
+TC_08: Verify Pincode with Empty Input
+
+- Technique: EP
+- Test Type: Negative
+- Description: Verify that the system displays an error when the Pincode field is empty.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Leave the Pincode field blank.
+  3. Submit the form.
+- Expected Result: System should display a required field validation message.
+- Pass/Fail: Not Executed
+
+ B. Phone Number Test Cases
+
+TC_09: Verify Phone Number with Valid 10 Digits
+
+- Technique: EP
+- Test Type: Positive
+- Description: Verify that the system accepts a valid 10-digit phone number.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `9876543210` in the Phone Number field.
+  3. Submit the form.
+- Expected Result: System should accept the phone number.
+- Pass/Fail: Not Executed
+
+TC_10: Verify Phone Number with Less Than 10 Digits
+
+- Technique: BVA
+- Test Type: Negative
+- Description: Verify that the system rejects a phone number containing 9 digits.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `987654321` in the Phone Number field.
+  3. Submit the form.
+- Expected Result: System should display a validation message.
+- Pass/Fail: Not Executed
+
+TC_11: Verify Phone Number with Exactly 10 Digits
+
+- Technique: BVA
+- Test Type: Positive
+- Description: Verify the minimum and maximum allowed phone number length.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `9876543210` in the Phone Number field.
+  3. Submit the form.
+- Expected Result: System should accept the 10-digit phone number.
+- Pass/Fail: Not Executed
+
+TC_12: Verify Phone Number with More Than 10 Digits
+
+- Technique: BVA
+- Test Type: Negative
+- Description: Verify that the system rejects a phone number containing 11 digits.
+- Test Steps:
+  1. Open the delivery address form.
+  2. Enter `98765432101` in the Phone Number field.
+  3. Submit the form.
+- Expected Result: System should reject the phone number and display a validation message.
+- Pass/Fail: Not Executed
+
+5. Conclusion
+
+Equivalence Partitioning helps divide input data into valid and invalid groups.
+Boundary Value Analysis checks values around the minimum and maximum limits.
+By using both techniques, we can identify input validation defects and improve test coverage with fewer test cases.
