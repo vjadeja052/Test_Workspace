@@ -1,0 +1,26 @@
+ Q4. Defect Severity and Priority
+
+1. Defect A – App Crashes on Place Order
+
+- Severity: Critical
+- Priority: High
+- Reason: The application crashes when users try to place an order, affecting approximately 30% of users. 
+It directly impacts the main functionality of the application and must be fixed immediately.
+
+2. Defect B – Restaurant Logo Misalignment
+
+- Severity: Minor
+- Priority: Low
+- Reason: The restaurant logo is slightly misaligned only on the iPhone SE model.
+It does not affect the main functionality of the application, so it can be fixed later.
+
+3. Difference between Severity and Priority:
+
+Severity describes how seriously a defect affects the application, whereas Priority describes how quickly the defect should be fixed.
+Defect A : has Critical severity and High priority because users cannot place orders.
+Defect B : has Minor severity and Low priority because it only affects the visual appearance of the logo.
+
+4. Which defect should be fixed first?
+
+Defect A should be fixed first because the application crashes during order placement and affects approximately 30% of users.
+It directly impacts the business and user experience. Therefore, the development team should give it the highest priority before release.
