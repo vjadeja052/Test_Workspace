@@ -1,0 +1,133 @@
+Task 3: Requirements Traceability Matrix (RTM) – Order Placement Flow
+
+ 1. Objective
+
+The objective of this task is to create a Requirements Traceability Matrix (RTM) for the Order Placement feature of a food delivery application.
+
+RTM helps to connect functional requirements with test scenarios and identified defects. It ensures that all requirements are properly covered by testing.
+
+ 2. Functional Requirements
+
+FR_01 – Add Item to Cart
+- The user should be able to add food items to the cart.
+- The cart should display the selected items and their prices.
+
+FR_02 – Apply Coupon
+- The user should be able to apply a valid coupon code.
+- The system should calculate and display the correct discount.
+
+FR_03 – Select Payment Method
+- The user should be able to select a payment method such as UPI, Credit Card, Debit Card, or Cash on Delivery.
+
+FR_04 – Place Order
+- The user should be able to place an order after completing all required steps.
+- The system should create the order successfully.
+
+FR_05 – View Order Confirmation
+- The system should display an order confirmation screen after successful order placement.
+- The confirmation screen should show the correct order details.
+
+FR_06 – View Order History
+- The user should be able to view previously placed orders.
+- The system should display correct order details and order status.
+
+3. Test Scenarios
+
+FR_01 – Add Item to Cart
+
+- TS_01: Verify that the user can successfully add a food item to the cart.
+- TS_02: Verify that the cart displays the correct item name, quantity, and price.
+
+FR_02 – Apply Coupon
+
+- TS_03: Verify that the user can successfully apply a valid coupon code.
+- TS_04: Verify that the system displays an appropriate error message for an invalid or expired coupon.
+
+FR_03 – Select Payment Method
+
+- TS_05: Verify that the user can select UPI as a payment method.
+- TS_06: Verify that the user can select Cash on Delivery as a payment method.
+
+FR_04 – Place Order
+
+- TS_07: Verify that the user can successfully place an order after selecting a valid payment method.
+- TS_08: Verify that the system does not place an order when required information is missing.
+
+FR_05 – View Order Confirmation
+
+- TS_09: Verify that the order confirmation screen is displayed after successful order placement.
+- TS_10: Verify that the confirmation screen displays the correct order ID, total amount, and delivery address.
+
+FR_06 – View Order History
+
+- TS_11: Verify that the user can view previously placed orders.
+- TS_12: Verify that the order history displays the correct order details and status.
+
+4. Requirements Traceability Matrix (RTM) – Forward Traceability
+
+Forward Traceability means linking each functional requirement to its related test scenarios and defects.
+
+1. Requirement ID: FR_01
+- Requirement: Add Item to Cart
+- Test Scenario IDs: TS_01, TS_02
+- Defect ID: DEF_01
+
+2. Requirement ID: FR_02
+- Requirement: Apply Coupon
+- Test Scenario IDs: TS_03, TS_04
+- Defect ID: DEF_02
+
+3. Requirement ID: FR_03
+- Requirement: Select Payment Method
+- Test Scenario IDs: TS_05, TS_06
+- Defect ID: N/A
+
+4. Requirement ID: FR_04
+- Requirement: Place Order
+- Test Scenario IDs: TS_07, TS_08
+- Defect ID: DEF_03
+
+5. Requirement ID: FR_05
+- Requirement: View Order Confirmation
+- Test Scenario IDs: TS_09, TS_10
+- Defect ID: N/A
+
+6. Requirement ID: FR_06
+- Requirement: View Order History
+- Test Scenario IDs: TS_11, TS_12
+- Defect ID: N/A
+
+5. Defect Details
+
+The following are hypothetical defects created for this assignment.
+
+DEF_01 – Cart Price Mismatch
+- Requirement ID: FR_01
+- Test Scenario ID: TS_02
+- Severity: S2 – High
+- Description: The cart displays an incorrect total price after adding multiple food items.
+
+DEF_02 – Coupon Discount Not Applied
+- Requirement ID: FR_02
+- Test Scenario ID: TS_03
+- Severity: S2 – High
+- Description: The system accepts a valid coupon code but does not apply the discount to the order total.
+
+DEF_03 – Order Placed Without Required Information
+- Requirement ID: FR_04
+- Test Scenario ID: TS_08
+- Severity: S1 – Critical
+- Description: The system allows the user to place an order without entering the required delivery address.
+
+6. Severity Classification
+
+- S1 – Critical: A defect that causes major application failure or blocks an important business operation.
+- S2 – High: A defect that seriously affects important functionality.
+- S3 – Medium: A defect that affects functionality but has a workaround.
+- S4 – Low: A minor defect that has very little impact on application functionality.
+
+ 7. Conclusion
+
+RTM helps testers track all functional requirements and ensures that each requirement has proper test coverage. 
+Forward Traceability connects requirements with test scenarios and related defects.
+It also helps identify missing test scenarios and ensures that important requirements are tested properly.
