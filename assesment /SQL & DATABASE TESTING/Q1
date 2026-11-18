@@ -1,0 +1,20 @@
+Section A – Question 1
+
+Bug Life Cycle
+
+When the tester retests the defect and finds that the problem still exists, the defect should be moved from Fixed to Reopened.
+
+The next three steps are:
+
+1. Assigned:
+The tester reopens the defect and assigns it back to the developer for further investigation.
+
+2. Fixed:
+The developer investigates the issue, corrects the promo code calculation problem, and changes the defect status to Fixed.
+
+3. Retest:
+The tester tests the updated application again to check whether the order total is calculated correctly after applying the promo code.
+
+If the issue is resolved, the tester marks it as Verified and then Closed. If the issue still exists, the tester reopens it again.
+
+Conclusion Reopening a defect ensures that an unsuccessful fix is not treated as completed.
