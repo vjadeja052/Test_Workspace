@@ -1,0 +1,34 @@
+ Q3. Equivalence Partitioning and Boundary Value Analysis
+
+1. Equivalence Partitioning (EP):
+
+The valid and invalid partitions for the Apply Promo Code field are:
+
+Valid Equivalence Partition:
+- Alphanumeric codes containing 6 to 10 characters.
+- Example: `ABC123`, `TEST1234`, `FOOD2026`.
+
+Invalid Equivalence Partitions:
+- Less than 6 characters: `ABC12`
+- More than 10 characters: `FOODDELIVERY`
+- Special characters: `ABC@123`
+- Spaces in the code: `ABC 123`
+- Empty input: Blank value.
+
+2. Boundary Value Analysis (BVA):
+The minimum allowed length is 6 characters, and the maximum allowed length is 10 characters.
+
+The exact boundary values are:
+
+- 5 characters – Invalid.
+- 6 characters – Valid.
+- 7 characters – Valid.
+- 9 characters – Valid.
+- 10 characters – Valid.
+- 11 characters – Invalid.
+
+3. Which technique offers better defect coverage?
+
+Boundary Value Analysis (BVA) offers better defect coverage for this scenario because most input validation defects occur around minimum and maximum limits.
+It helps identify errors such as accepting 5 characters or rejecting 10 characters.
+Equivalence Partitioning is also useful for checking different valid and invalid input groups.
