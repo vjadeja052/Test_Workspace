@@ -1,0 +1,15 @@
+Q2. Non-Functional Testing and 7 Principles of Testing
+
+1. Three important types of Non-Functional Testing:
+
+ 1. Performance Testing: It checks the speed, response time, and overall performance of the payment gateway during transactions.
+
+ 2. Load Testing: It checks whether the payment gateway can handle 5,000 concurrent transactions during peak lunch hours without slowing down or failing.
+
+ 3. Stress Testing: It checks how the payment gateway behaves when the number of transactions exceeds its expected capacity and whether it can recover properly.
+
+2. Relevant Principle of Testing:
+
+The relevant principle is Exhaustive Testing is Impossible. 
+It is not possible to test every possible transaction, payment combination, and user condition. 
+Therefore testers should focus on important scenarios, high-risk areas, and maximum test coverage within the available time.
