@@ -1,0 +1,26 @@
+Q4. Locator Selection
+
+ 1. Preferred Locator
+
+I would choose the **ID locator: `btn-confirm-order`**.
+
+Reason:
+
+- ID locators are generally unique and reliable.
+- The button ID remains stable even when the DOM structure changes.
+- XPath depends on the button's position inside the parent div.
+- If the DOM structure changes, the XPath may fail or locate the wrong element.
+
+2. Definition of Fragile Locator
+
+A fragile locator is a locator that can easily break when the HTML or DOM structure of a web page changes.
+
+Example
+
+`//div[@class='checkout-wrapper']/button[3]`
+
+This XPath depends on the button's position. If another button is added or the order of buttons changes, the locator may stop working.
+
+3. Consequence in Regression Testing
+
+Using fragile locators in every sprint can cause automated test cases to fail even when the actual application functionality is working correctly. This creates unnecessary test maintenance and false failures.
