@@ -1,0 +1,142 @@
+Task 4: Checkout Web and Database Testing
+
+1. Web UI Testing – Checkout Module
+
+Test Case 1: Form Validation
+
+- Description: Verify that the checkout form displays validation messages when required fields are empty.
+- Test Steps:
+  1. Open the checkout page.
+  2. Leave all required fields empty.
+  3. Click on the Place Order button.
+- Expected Result The system should display validation messages for all required fields and should not place the order.
+
+Test Case 2: Navigation Links
+
+- Description: Verify that all navigation links on the checkout page work correctly.
+- Test Steps:
+  1. Open the checkout page.
+  2. Click on the Home, Cart, and Back links.
+  3. Check whether the user is redirected to the correct pages.
+- Expected Result: All navigation links should redirect users to their correct pages without errors.
+
+Test Case 3: Data Submission
+
+- **Description:** Verify that checkout details are submitted successfully.
+- Test Steps:
+  1. Enter valid delivery address and contact details.
+  2. Select a payment method.
+  3. Click on the Place Order button.
+- Expected Result: The order should be submitted successfully, and an order confirmation message should be displayed.
+
+Test Case 4: UI Rendering
+
+- Description: Verify that all checkout page elements are displayed properly.
+- Test Steps:
+  1. Open the checkout page.
+  2. Check text, buttons, images, input fields, and order summary.
+  3. Verify the page layout on different screen sizes.
+- Expected Result: All UI elements should be visible, properly aligned, and readable.
+
+Test Case 5: Error Handling
+
+- Description: Verify that the system handles invalid checkout details correctly.
+- Test Steps:
+  1. Enter an invalid phone number or incomplete address.
+  2. Click on the Place Order button.
+  3. Observe the error message.
+- Expected Result: The system should display a clear error message and should not process the invalid order.
+
+2. Cross-Browser Testing
+
+Scenario 1: Checkout Page Layout
+
+- Browsers: Google Chrome, Mozilla Firefox, Microsoft Edge.
+- Test: Open the checkout page in all three browsers.
+- Expected Result: The page layout, text, buttons, and input fields should display correctly in all browsers. Minor font or spacing differences may occur,
+but the layout should remain usable.
+
+Scenario 2: Place Order Functionality
+
+- Browsers: Google Chrome, Mozilla Firefox, Microsoft Edge.
+- Test: Enter valid checkout details and click on Place Order.
+- Expected Result: The order should be submitted successfully in all three browsers without any browser-specific errors.
+
+Scenario 3: Form Validatio
+
+- Browsers: Google Chrome, Mozilla Firefox, Microsoft Edge.
+- Test: Submit the checkout form with empty or invalid fields.
+- Expected Result: Validation messages should appear correctly in all browsers, and invalid data should not be submitted.
+
+3. SQL Queries for Database Verification
+
+Assumption: The database contains an `orders` table with the columns `order_id`, `total_amount`, `coupon_code`, and `payment_method`.
+
+Query 1: Verify Order Total
+
+sql
+SELECT order_id, total_amount
+FROM orders
+WHERE order_id = 101;
+
+
+-Purpose: Verify that the order total stored in the database matches the total displayed on the checkout page.
+
+Query 2: Verify Coupon Code
+
+sql
+SELECT order_id, coupon_code
+FROM orders
+WHERE order_id = 101;
+
+
+- Purpose: Verify that the correct coupon code entered by the user is stored in the database.
+
+Query 3: Verify Payment Method
+
+sql
+SELECT order_id, payment_method
+FROM orders
+WHERE order_id = 101;
+
+- Purpose: Verify that the selected payment method is correctly saved in the database.
+
+Note:** Order ID `101` is an example. Replace it with an actual order ID from the test environment. 
+Compare the database values with the values displayed on the UI.
+
+4. Defect Report
+
+- Defect ID: DEF_004
+- Defect Title: Incorrect Order Total Displayed on Checkout Page
+- Module: Checkout Module
+- Severity: S2 – High
+- Priority: High
+- Environment: Web Application – Google Chrome
+- Precondition: User has added products to the cart and applied a valid coupon code.
+
+Steps to Reproduce:
+
+1. Open the shopping application.
+2. Add a product to the cart.
+3. Apply a valid coupon code.
+4. Open the checkout page.
+5. Compare the displayed order total with the expected discounted amount.
+
+Expected Result:
+
+The checkout page should display the correct total amount after applying the coupon discount.
+
+Actual Result:
+
+The checkout page displays an incorrect total amount even after applying the coupon discount.
+
+Status: New
+
+Defect Description:
+
+The order total displayed on the checkout page does not match the expected amount after applying a coupon. This may cause users to see an incorrect payment amount.
+
+Conclusion:
+
+Checkout testing helps verify that the checkout page works correctly, displays accurate information, and stores the correct order details in the database.
+Cross-browser testing also ensures that the checkout functionality works consistently across different browsers.
