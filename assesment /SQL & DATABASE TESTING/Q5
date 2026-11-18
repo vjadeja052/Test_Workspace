@@ -1,0 +1,53 @@
+ Q5. SQL JOIN Validation
+
+1. JOIN Structure to Validate Order History
+
+To validate the Order History page, I would join the `orders` table with the `users` and `restaurants` tables.
+
+SQL Query
+
+sql
+SELECT
+    o.order_id,
+    u.name AS customer_name,
+    r.name AS restaurant_name,
+    o.amount
+FROM orders o
+INNER JOIN users u
+    ON o.user_id = u.user_id
+INNER JOIN restaurants r
+    ON o.restaurant_id = r.restaurant_id;
+
+
+Explanation:
+
+- The `orders` table contains order details.
+- The first INNER JOIN connects orders with users using `user_id`.
+- The second INNER JOIN connects orders with restaurants using `restaurant_id`.
+- The query displays customer name, restaurant name, and order amount.
+
+2. Why LEFT JOIN Can Be More Appropriate
+
+LEFT JOIN is more appropriate when we want to identify missing related records.
+
+It displays all records from the left table, even if matching records are not available in the right table.
+
+Example SQL Query:
+
+sql
+SELECT
+    o.order_id,
+    u.name AS customer_name,
+    r.name AS restaurant_name,
+    o.amount
+FROM orders o
+LEFT JOIN users u
+    ON o.user_id = u.user_id
+LEFT JOIN restaurants r
+    ON o.restaurant_id = r.restaurant_id
+WHERE u.user_id IS NULL
+   OR r.restaurant_id IS NULL;
+
+Discrepancy It Can Detect:
+
+This query can identify orders that have no matching customer record or restaurant record. Such missing relationships may indicate database inconsistency or invalid foreign key data.
