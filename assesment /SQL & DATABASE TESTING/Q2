@@ -1,0 +1,22 @@
+Question 2
+
+Defect (a): Place Order Button Not Working
+
+- Severity: S1 – Critical
+- Priority: P1 – High
+- Justification: The Place Order button is completely unresponsive after applying a coupon, blocking all transactions and preventing customers from placing orders.
+Therefore, it must be fixed immediately.
+
+Defect (b): Company Logo Misaligned
+
+- Severity: S4 – Low
+- Priority: P3 – Low
+- Justification: The logo is only 4 pixels misaligned and does not affect the checkout functionality or order placement, so it can be fixed later.
+
+Why Can a Defect Have High Severity but Low Priority?
+
+A defect can have high severity but low priority when it causes serious damage but affects a rarely used feature or a feature that is not currently important for business.
+
+For example, if defect (a) occurs only in an outdated, unsupported app version used by very few customers, its severity may remain high, but the team may assign lower priority based on business urgency.
+
+However, in the given scenario, the Place Order button blocks all transactions on the platform. So, defect (a) should have both high severity and high priority.
