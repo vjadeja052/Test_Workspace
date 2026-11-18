@@ -1,0 +1,458 @@
+Section C: End-to-End Manual Testing Project – Food Delivery Web Portal
+
+Project Name: FoodieExpress
+ 1. Test Plan
+1.1 Project Overview
+
+FoodieExpress is an online food delivery web portal where users can register, log in, search for restaurants, view food items, 
+add items to the cart, place orders, and track their orders.
+
+ 1.2 Testing Objectives
+
+- Verify that users can register and log in successfully.
+- Verify that users can search for restaurants and food items.
+- Verify that users can add and remove food items from the cart.
+- Verify that users can place orders successfully.
+- Verify that payment and order confirmation work correctly.
+- Verify that order details are stored correctly in the database.
+
+1.3 Scope of Testing
+
+In Scope:
+
+- User Registration
+- User Login and Logout
+- Restaurant Search
+- Food Item Selection
+- Add to Cart and Remove from Cart
+- Apply Coupon
+- Checkout
+- Payment
+- Order Confirmation
+- Order History and Tracking
+
+Out of Scope:
+
+- Restaurant owner account management
+- Delivery partner location tracking system
+- Third-party payment gateway internal testing
+- Server infrastructure testing
+
+ 1.4 Testing Approach
+
+- Manual Testing
+- Functional Testing
+- UI Testing
+- Integration Testing
+- End-to-End Testing
+- Negative Testing
+- Database Testing
+- Regression Testing
+
+1.5 Test Environment
+
+- Operating System: Windows 10/11
+- Browser: Google Chrome
+- Testing Type: Manual Testing
+- Database: MySQL
+- Application: FoodieExpress Web Portal
+
+1.6 Entry Criteria
+
+- Application build should be available.
+- Requirements should be clearly defined.
+- Test environment should be ready.
+- Required test data should be available.
+
+ 1.7 Exit Criteria
+
+- All planned test cases should be executed.
+- Critical and high-severity defects should be fixed and retested.
+- Test execution results should be documented.
+- Testing summary report should be prepared.
+
+1.8 Risks and Mitigation
+
+Risk 1: Application may not be available.
+- Mitigation: Check the testing environment before starting execution.
+
+Risk 2: Invalid or incomplete test data.
+- Mitigation: Prepare valid and invalid test data before testing.
+
+Risk 3: Payment gateway failure.
+- Mitigation: Use a payment sandbox or test payment environment.
+
+
+ 2. Test Cases – FoodieExpress
+
+ Module 1: User Registration
+
+TC_01: Verify Registration with Valid Details
+- Test Steps:
+  1. Open the registration page.
+  2. Enter a valid name, email, phone number, and password.
+  3. Click on the Register button.
+- Expected Result: User should be registered successfully.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_02: Verify Registration with Empty Fields
+- Test Steps:
+  1. Open the registration page.
+  2. Leave all fields empty.
+  3. Click on Register.
+- Expected Result: Required field validation messages should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_03: Verify Registration with Invalid Email
+- Test Steps:
+  1. Enter an invalid email address.
+  2. Fill in the remaining required details.
+  3. Click on Register.
+- Expected Result: The system should display an invalid email validation message.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_04: Verify Registration with Existing Email
+- Test Steps:
+  1. Enter an email address that is already registered.
+  2. Fill in the remaining details.
+  3. Click on Register.
+- **Expected Result:** The system should display a message that the email is already registered.
+- **Actual Result:** Not Executed.
+- **Status:** Not Executed.
+
+Module 2: User Login
+
+TC_05: Verify Login with Valid Credentials
+- Test Steps:
+  1. Open the login page.
+  2. Enter a registered email and correct password.
+  3. Click on Login.
+- Expected Result: User should log in successfully and navigate to the home page.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_06: Verify Login with Invalid Password
+- Test Steps:
+  1. Enter a registered email.
+  2. Enter an incorrect password.
+  3. Click on Login.
+- Expected Result: An appropriate error message should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_07: Verify Login with Empty Fields
+- Test Steps:
+  1. Open the login page.
+  2. Leave email and password fields empty.
+  3. Click on Login.
+- Expected Result: Required field validation messages should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+Module 3: Restaurant and Food Search
+
+TC_08: Verify Restaurant Search with Valid Name
+- Test Steps:
+  1. Open the home page.
+  2. Enter a valid restaurant name in the search box.
+  3. Click on Search.
+- Expected Result: Matching restaurant results should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_09: Verify Search with Invalid Restaurant Name
+- Test Steps:
+  1. Enter a restaurant name that does not exist.
+  2. Click on Search.
+- Expected Result: A suitable message such as "No restaurants found" should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_10: Verify Food Item Details
+- Test Steps
+  1. Open a restaurant.
+  2. Select a food item.
+  3. Check its name, price, and description.
+- Expected Result: Correct food item details should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+Module 4: Cart Management
+
+TC_11: Verify Add to Cart Functionality
+- Test Steps:
+  1. Open a restaurant.
+  2. Select a food item.
+  3. Click on Add to Cart.
+- Expected Result: The selected food item should be added to the cart.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_12: Verify Remove Item from Cart
+- Test Steps:
+  1. Add a food item to the cart.
+  2. Open the cart.
+  3. Click on Remove.
+- Expected Result: The selected item should be removed from the cart.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_13: Verify Cart Total Calculation
+- Test Steps:
+  1. Add multiple food items to the cart.
+  2. Open the cart.
+  3. Check the total amount.
+- Expected Result: The cart total should be calculated correctly based on item prices and quantities.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_14: Verify Update Item Quantity
+- Test Steps:
+  1. Add a food item to the cart.
+  2. Increase or decrease its quantity.
+  3. Check the updated total.
+- Expected Result: Item quantity and cart total should be updated correctly.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+Module 5: Coupon and Checkout
+
+TC_15: Verify Apply Valid Coupon
+- Test Steps:
+  1. Add food items to the cart.
+  2. Enter a valid coupon code.
+  3. Click on Apply.
+- Expected Result :The applicable discount should be applied to the order.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_16: Verify Apply Invalid Coupon
+- Test Steps:
+  1. Open the cart.
+  2. Enter an invalid coupon code.
+  3. Click on Apply.
+- Expected Result: An invalid coupon error message should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_17: Verify Checkout with Valid Address**
+- Test Steps:
+  1. Add food items to the cart.
+  2. Proceed to checkout.
+  3. Enter a valid delivery address and phone number.
+- Expected Result: The system should accept the valid delivery details.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_18: Verify Checkout with Empty Address
+- Test Steps:
+  1. Proceed to checkout.
+  2. Leave the delivery address empty.
+  3. Click on Place Order.
+- Expected Result: The system should display a required address validation message.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+Module 6: Order and Payment
+
+TC_19: Verify Successful Order Placement
+- Test Steps:
+  1. Add food items to the cart.
+  2. Enter valid delivery details.
+  3. Select an available payment method.
+  4. Complete the payment using the test environment.
+  5. Place the order.
+- Expected Result: The order should be placed successfully and an order confirmation should be displayed.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+TC_20: Verify Order History
+- Test Steps:
+  1. Log in to the application.
+  2. Place an order successfully.
+  3. Open the Order History section.
+- Expected Result: The recently placed order should be displayed with correct order details.
+- Actual Result: Not Executed.
+- Status: Not Executed.
+
+
+3. Requirement Traceability Matrix (RTM)
+
+ Requirement 1: User Registration
+- Requirement ID: FR_01
+- Description: User should be able to register with valid details.
+- Test Case IDs: TC_01, TC_02, TC_03, TC_04
+- Defect ID: DEF_01
+
+Requirement 2: User Login
+- Requirement ID: FR_02
+- Description: Registered users should be able to log in.
+- Test Case IDs: TC_05, TC_06, TC_07
+- Defect ID: DEF_02
+
+Requirement 3: Restaurant and Food Search
+- Requirement ID: FR_03
+- Description: Users should be able to search for restaurants and view food items.
+- Test Case IDs: TC_08, TC_09, TC_10
+- Defect ID: DEF_03
+
+Requirement 4: Cart Management
+- Requirement ID: FR_04
+- Description: Users should be able to add, remove, and update cart items.
+- Test Case IDs: TC_11, TC_12, TC_13, TC_14
+- Defect ID: DEF_04
+
+ Requirement 5: Coupon and Checkout
+- Requirement ID: FR_05
+- Description: Users should be able to apply coupons and enter delivery details.
+- Test Case IDs : TC_16, TC_17, TC_18
+- Defect ID: N/A
+
+Requirement 6: Order Placement and History
+- Requirement ID: FR_06
+- Description: Users should be able to place orders and view order history.
+- Test Case IDs: TC_19, TC_20
+- Defect ID: DEF_05
+
+ 4. Defect Reports
+
+Note: The following are hypothetical sample defects for assignment documentation.
+They must not be reported as actual defects found unless they are reproduced during testing.
+
+DEF_01: Registration Accepts Invalid Email
+
+- Module: User Registration
+- Severity: S2 – High
+- Priority: High
+- Steps to Reproduce:
+  1. Open the registration page.
+  2. Enter an invalid email address.
+  3. Fill in the remaining required fields.
+  4. Click on Register.
+- Expected Result: The system should reject the invalid email address.
+- Actual Result: The system accepts the invalid email address.
+- Status: New
+
+EF_02: Login Accepts Incorrect Password
+
+- Module: User Login
+- Severity: S1 – Critical
+- Priority: High
+- Steps to Reproduce:
+  1. Open the login page.
+  2. Enter a registered email.
+  3. Enter an incorrect password.
+  4. Click on Login.
+- Expected Result: Login should fail and an error message should be displayed.
+- Actual Result: The system allows login with an incorrect password.
+- Status: New
+
+DEF_03: Restaurant Search Shows Incorrect Results
+
+- Module: Restaurant Search
+- Severity: S3 – Medium
+- Priority: Medium
+- Steps to Reproduce:
+  1. Open the home page.
+  2. Enter a restaurant name in the search box.
+  3. Click on Search.
+- Expected Result: Only matching restaurants should be displayed.
+- Actual Result: Unrelated restaurant results are displayed.
+- Status:** New
+
+DEF_04: Cart Total Is Calculated Incorrectly
+
+- Module: Cart Management
+- Severity: S2 – High
+- Priority: High
+- Steps to Reproduce:
+  1. Add two or more food items to the cart.
+  2. Change the quantity of an item.
+  3. Check the cart total.
+- Expected Result: The cart total should update according to the selected quantities.
+- Actual Result: The displayed cart total is incorrect.
+- Status: New
+
+DEF_05: Order Does Not Appear in Order History
+
+- Module: Order History
+- SeverityL: S2 – High
+- Priority: High
+- **Steps to Reproduce:**
+  1. Log in to the application.
+  2. Place an order successfully.
+  3. Open the Order History section.
+- Expected Result: The newly placed order should appear in order history.
+- Actual Result: The newly placed order is not displayed.
+- Status: New
+
+
+
+5. SQL Queries for Registration and Order Placement
+
+Assumption: The database contains two tables:
+
+-users – stores user registration details.
+-orders – stores order placement details.
+
+Query 1: Verify Registered User
+
+sql
+SELECT *
+FROM users
+WHERE email = 'testuser@gmail.com';
+
+
+- Purpose : Verify whether the user registration details are stored in the database.
+
+Query 2: Verify User Details
+
+sql
+SELECT user_id, name, email, phone
+FROM users
+WHERE user_id = 101;
+
+
+- Purpose: Verify that the registered user's name, email, and phone number are stored correctly.
+
+Query 3: Verify Placed Order
+
+sql
+SELECT *
+FROM orders
+WHERE order_id = 501;
+
+
+- Purpose:Verify whether the order details are saved successfully after placing an order.
+
+Query 4: Verify Order Amount
+
+sql
+SELECT order_id, user_id, total_amount
+FROM orders
+WHERE order_id = 501;
+
+
+- Purpose: Verify that the correct order amount is stored in the database.
+
+Query 5: Verify Orders Placed by a User
+
+sql
+SELECT order_id, user_id, total_amount, order_status
+FROM orders
+WHERE user_id = 101;
+
+
+- Purpose : Verify all orders placed by a particular user and check their order status.
+
+Note: The table names, column names, email, user ID, and order ID are examples. Actual database names and values may be different.
+
+Conclusion 
+
+Manual testing of the FoodieExpress web portal helps verify the complete food ordering process, starting from user registration and ending with order placement.
+
+The test cases cover positive and negative scenarios. RTM helps connect requirements with test cases and defects.
+SQL queries help verify whether user and order information is stored correctly in the database.
