@@ -1,0 +1,25 @@
+Section A – Concept Application
+
+Q1. Agile SDLC and Testing
+
+1. When should testing begin in an Agile sprint ?
+
+In the Agile model, testing should begin from the first day of the sprint.
+Testers participate in sprint planning and requirement discussions.
+Testing continues throughout the development process instead of waiting until development is completed.
+
+2. Entry Criteria:
+
+- Requirements and user stories should be clearly defined with acceptance criteria.
+- The application build should be available, and the test environment should be ready.
+
+3. Exit Criteria:
+
+- All planned test cases should be executed successfully.
+- All critical and high-priority defects should be fixed and retested before the sprint is completed.
+
+4. Difference between Agile and Waterfall Testing:
+
+In Agile, testing is performed continuously during every sprint, and testers work closely with developers.
+In Waterfall, testing generally starts after the development phase is completed. Agile allows frequent 
+feedback and changes, whereas Waterfall follows a sequential process.
